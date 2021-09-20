@@ -1,0 +1,12 @@
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.deps.json
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.dll
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.pdb
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Dominio.dll
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Dominio.pdb
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csprojAssemblyReference.cache
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csproj.CopyComplete
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.dll
+F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.pdb
