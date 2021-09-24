@@ -8,12 +8,12 @@ namespace TorneoFutbol.App.Dominio
     public class Equipo
     {
         // Identificador único de cada persona
-        public int Id { get; set; }
+        public int ID { get; set; }
         public string Nombre { get; set; }
         public DirectorTecnico Director { get; set; }
         public Municipio Municipio { get; set; } 
         public Desempenio Desempenio {get;set;}
-        public List<Jugador> Jugadores { get; set; } 
+        public virtual ICollection<Jugador> Jugadores { get; set; } 
         
     }
 }

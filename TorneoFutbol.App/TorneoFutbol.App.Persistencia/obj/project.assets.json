@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\repos\\Reto_torneo_futbol\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "projectUniqueName": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
       "projectName": "TorneoFutbol.App.Persistencia",
-      "projectPath": "F:\\repos\\Reto_torneo_futbol\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "F:\\repos\\Reto_torneo_futbol\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
+      "outputPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "F:\\repos\\Reto_torneo_futbol\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-              "projectPath": "F:\\repos\\Reto_torneo_futbol\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+            "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+              "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
             }
           }
         }

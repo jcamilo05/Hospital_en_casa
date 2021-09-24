@@ -8,7 +8,7 @@ namespace TorneoFutbol.App.Dominio
     public class Partido
     {
         // Identificador único de cada persona
-        public int Id { get; set; }
+        public int ID { get; set; }
         public DateTime FechaHora { get; set; }
         public Equipo EquipoLocal { get; set; }
         public Equipo EquipoVisitante { get; set; }

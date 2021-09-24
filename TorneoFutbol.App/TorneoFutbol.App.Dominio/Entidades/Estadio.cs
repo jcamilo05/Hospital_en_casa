@@ -7,7 +7,7 @@ namespace TorneoFutbol.App.Dominio
     public class Estadio 
     {
         /// Id de cada municipio 
-        public int Id { get; set; }    
+        public int ID { get; set; }    
         ///Nombre del municipio 
         public string Nombre { get; set; }
         ///Nombre del departamento 

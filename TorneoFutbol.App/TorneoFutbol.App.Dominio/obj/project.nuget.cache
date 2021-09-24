@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SHc7KXiGaYnoLjIiKc5Nfwy8QEbAQSZNdfl+FOZoL/GlIWdTDTo1tpkrabErJdj8xUk8rlkNmFkRYF4Iimow0g==",
+  "dgSpecHash": "pw6z9HuZPgwPVJswj/QQg3xyFHLI1TC+uIm3z5ERqO5lxJcPQuJDSE5o5HBk21zR9K8fMd+KxGxV5Rx77jYW5g==",
   "success": true,
-  "projectFilePath": "F:\\repos\\Reto_torneo_futbol\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+  "projectFilePath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\camil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
