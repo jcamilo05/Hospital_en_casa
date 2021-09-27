@@ -1,11 +1,10 @@
 <h1>Interacting between Console and database</h1>
 
-<h2>2. Creating the interface</h2>
+<h2>1. Create the interface</h2>
 
-The first step to achieving the connection between the database and console is creating the interfaces of each entity, the following steps are implemented for 1 entity (which will be Persona), but the steps are the same to all entities of the project.
+The first step to achieve the connection between the database and console is the creation of the interface for each entity, the following steps was implemented for 1 entity (which will be Jugador), but the steps are the same to all entities of this project.
 
-<h2>1. Creating the interface</h2>
-In order to have a clean project, inside the *AppRepositorios* we are going to create a interface called `IRepositorioPersona` which will be a class interface and another class what will implement that interface and was called `RepositorioPersona`
+In order to have a clean project, inside the *AppRepositorios* we are going to create a interface called `IRepositorioJugador` which will be a class interface, and another class what we will implement is interface and is called `RepositorioJugador`
 
 The interface, was written in the following fashion
 
@@ -15,22 +14,23 @@ using TorneoFutbol.App.Dominio;
 
 namespace TorneoFutbol.App.Persistencia
 {
-    public interface IRepositorioPersona
+    public interface IRepositorioJugador
         {
-            IEnumerable<Pesrona> GetAllPersonas();
-            Persona AddPersona(Persona persona);
-            Persona UpdatePersona(Persona persona);
-            void DeletePersona(int idPersona);
-            Persona GetPersona(int idPersona);
+            Jugador AddJugador(Jugador jugador);
+            Jugador UpdateJugador(Jugador jugador);
+            void DeleteJugador(int idJugador);
+            Jugador GetJugador(int idJugador);
         }
 
 }
 ```
 
-Note: IEnumerable is an interface that defines one method, GetEnumerator which returns an IEnumerator interface. This allows readonly access to a collection then a collection that implements IEnumerable can be used with a for-each statement.
-<h2>Implementing the class inherited from interface</h2>
+**Note:** IEnumerable is an interface that defines one method, GetEnumerator which returns an IEnumerator interface. This allows readonly access to a collection then a collection that implements IEnumerable can be used with a for-each statement
 
-As in the previous step we implemented the interface, here the interface will be inherited by a class named RepositorioPersona,the class has the following way
+<h2>2.Implement the class inherited from interface</h2>
+
+Since in the previous step we implemented the interface, here the interface will be inherited by a class named RepositorioJugador,the class was coded as follows. 
+
 ```c#
 
 using System.Collections.Generic;
@@ -40,47 +40,47 @@ using TorneoFutbol.App.Persistencia;
 
 namespace TorneoFutbol.App.Persistencia
 {
-    public class RepositorioPersona : IRepositorioPersona
+    public class RepositorioJugador : IRepositorioJugador
     {
         private readonly Persistencia.AppContext _appContext = new Persistencia.AppContext();
-        Persona IRepositorioPersona.AddPersona(Persona persona)
+        Jugador IRepositorioJugador.AddJugador(Jugador jugador)
         {
-            var personaAdded = _appContext.Personas.Add(persona);
+            var jugadorAdded = _appContext.Jugadors.Add(jugador);
             _appContext.SaveChanges();
-            return personaAdded.Entity; 
+            return jugadorAdded.Entity; 
         }
 
-        void IRepositorioPersona.DeletePersona(int idPersona)
+        void IRepositorioJugador.DeleteJugador(int idJugador)
         {
-            var personafound = _appContext.Personas.FirstOrDefault(p => p.ID == idPersona);
-            if (personafound == null)
+            var jugadorfound = _appContext.Jugadors.FirstOrDefault(p => p.ID == idJugador);
+            if (jugadorfound == null)
                 return;
-            _appContext.Personas.Remove(personafound);
+            _appContext.Jugadors.Remove(jugadorfound);
             _appContext.SaveChanges();
         }
 
-        IEnumerable<Persona> IRepositorioPersona.GetAllPersonas()
+        IEnumerable<Jugador> IRepositorioJugador.GetAllJugadors()
         {
-            return _appContext.Personas;
+            return _appContext.Jugadors;
         }
                 
-        Persona IRepositorioPersona.GetPersona(int idPersona)
+        Jugador IRepositorioJugador.GetJugador(int idJugador)
         {
-            return _appContext.Personas.FirstOrDefault(p => p.ID == idPersona);
+            return _appContext.Jugadors.FirstOrDefault(p => p.ID == idJugador);
         }
-        Persona IRepositorioPersona.UpdatePersona(Persona persona)
+        Jugador IRepositorioJugador.UpdateJugador(Jugador jugador)
         {
-            var personafound = _appContext.Personas.FirstOrDefault(p => p.ID == persona.ID);
-            if (personafound != null)
+            var jugadorfound = _appContext.Jugadors.FirstOrDefault(p => p.ID == jugador.ID);
+            if (jugadorfound != null)
             {
-                personafound.Nombre = persona.Nombre;
-                personafound.Documento = persona.Documento;
-                personafound.NumeroTelefono = persona.NumeroTelefono;
+                jugadorfound.Nombre = jugador.Nombre;
+                jugadorfound.Documento = jugador.Documento;
+                jugadorfound.NumeroTelefono = jugador.NumeroTelefono;
 
                 _appContext.SaveChanges();
             }
 
-            return personafound;
+            return jugadorfound;
         }
 
     }
@@ -94,7 +94,7 @@ Although the Dominio and Persistencia were declared at the top of the code, is n
 
 **Note:** The 2 previous commands must be run in the Console folder
 
-<h2>Breaking down the Code</h2>
+<h2>3. Break down the Code</h2>
 
 The following lines will explain how each chunk of the Repositorio works
 
@@ -117,7 +117,7 @@ namespace TorneoFutbol.App.Persistencia
 {
    public class AppContext : DbContext
    {
-       public DbSet<Persona> Personas {get; set;}
+       public DbSet<Jugador> Jugadors {get; set;}
 
        protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder)
        {
@@ -130,90 +130,93 @@ namespace TorneoFutbol.App.Persistencia
     }
 } 
 ```
-The AppContext which inherited from DbContext allow to use DbSet, to dip into how DbSet and Dbcontex Work referring to the following link 
+The AppContext which inherited from DbContext allow to use DbSet, to dip into how DbSet and Dbcontex Work referring to the followings links 
 
-[Working with DbContext](https://docs.microsoft.com/en-us/ef/ef6/fundamentals/working-with-dbcontext)
+[1. Working with DbContext](https://docs.microsoft.com/en-us/ef/ef6/fundamentals/working-with-dbcontext)
 
+[2. Entity Framework Core: DbContext](https://www.entityframeworktutorial.net/efcore/entity-framework-core-dbcontext.aspx)
 
-<h3>Creating "Add new person" to database </h3>
+<h3>Perform "Add new Jugador" to the database </h3>
 
 ```c#
 
-    Persona IRepositorioPersona.AddPersona(Persona persona)
+    Jugador IRepositorioJugador.AddJugador(Jugador jugador)
     {
-        var personaAdded = _appContext.Personas.Add(persona);
+        var jugadorAdded = _appContext.Jugadors.Add(jugador);
         _appContext.SaveChanges();
-        return personaAdded.Entity; 
+        return jugadorAdded.Entity; 
     }
 
 ```
-AddPersona is a method which allow us to put personas into the database, this method is declared as a Persona type, which is a class already created, to refresh our memory we will rewrite such class 
+AddJugador is a method which allow us to put a jugador into the database, this method is declared as a Jugador type, which is a class already created. To refresh our memory we will rewrite them. 
 
 ```c#
 
-public class Persona
+public class Jugador
     {
     public int ID { get; set; }
     public string Nombre { get; set; }
     public string Documento { get; set; }
     public string NumeroTelefono { get; set; }
+    public string Numero {get; set;{
+    public string posicion {get;set;}
     } 
 
 ```
 
-The IRepositorioPersona.AddPersona is a class which take as input a Persona and also return a Persona type, inside the class is created a variable named personaAdded 
+The **IRepositorioJugador.AddJugador** is a class which take as input a Jugador and also return a Jugador type, inside the class is created a variable named jugadorAdded 
 
-<h3>Deleting a Person from the Database</h3>
+<h3>Delete a Person from the Database</h3>
 
 The function which implement the code to delete a person from the database is shown as follows
 
 ```c#
 
-RepositorioPersona.DeletePersona(int idPersona)
+RepositorioJugador.DeleteJugador(int idJugador)
 {
-    var personafound = _appContext.Personas.FirstOrDefault(p => p.ID == idPersona);
-    if (personafound == null)
+    var jugadorfound = _appContext.Jugadors.FirstOrDefault(p => p.ID == idJugador);
+    if (jugadorfound == null)
         return;
-    _appContext.Personas.Remove(personafound);
+    _appContext.Jugadors.Remove(jugadorfound);
     _appContext.SaveChanges();
 }
 ```
-The above class also create a instance from AppContext and look for a person, it access to person class which is stored in a database through the ID setting as a parameter of the constructor, if the ID is found then such number is assign ti a variable p, and then the Method **FirstOrDefault** will look for the ID what stand that ID and with the method Remove perform the operation of deleting that persona.
+The above class also create a instance from AppContext and look for a person, it access to person class which is stored in a database through the ID setting as a parameter of the constructor, if the ID is found then such number is assign ti a variable p, and then the Method **FirstOrDefault** will look for the ID what stand that ID and with the method Remove perform the operation of deleting that jugador.
 
 
 To see what does the [=>](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-operator) click on it
 
-<h3>querying for a person</h3>
+<h3>query for a person</h3>
 
 This operation works in similar way as Delete, its mean in the class must be putting the ID and through FirstOrDefault method that person will be searched, but in this case we are interested just in show the person who has that ID.
 
 The snipped that person the query is the following
 
 ```c#
- Persona IRepositorioPersona.GetPersona(int idPersona)
+ Jugador IRepositorioJugador.GetJugador(int idJugador)
      {
-     return _appContext.Personas.FirstOrDefault(p => p.ID == idPersona);
+     return _appContext.Jugadors.FirstOrDefault(p => p.ID == idJugador);
      }
 
 ```
-<h3>Updating a person</h3>
+<h3>Update a person</h3>
 
 To complete the crud just remain the update function this is done first of all by searching the person by ID, and if them was found the person will be update, the code is as follow
 
 ```c#
-Persona IRepositorioPersona.UpdatePersona(Persona persona)
+Jugador IRepositorioJugador.UpdateJugador(Jugador jugador)
 {
-    var personafound = _appContext.Personas.FirstOrDefault(p => p.ID == persona.ID);
-    if (personafound != null)
+    var jugadorfound = _appContext.Jugadors.FirstOrDefault(p => p.ID == jugador.ID);
+    if (jugadorfound != null)
     {
-        personafound.Nombre = persona.Nombre;
-        personafound.Documento = persona.Documento;
-        personafound.NumeroTelefono = persona.NumeroTelefono;
+        jugadorfound.Nombre = jugador.Nombre;
+        jugadorfound.Documento = jugador.Documento;
+        jugadorfound.NumeroTelefono = jugador.NumeroTelefono;
 
         _appContext.SaveChanges();
     }
 
-    return personafound;
+    return jugadorfound;
 }
 ```
 
