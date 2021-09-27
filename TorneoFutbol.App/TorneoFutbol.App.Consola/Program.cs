@@ -6,22 +6,24 @@ namespace TorneoFutbol.App.Consola
 {
     class Program
     {
-    private static IRepositorioPersona _repoPersona = new RepositorioPersona();
+    private static IRepositorioEstadio _repoEstadio = new RepositorioEstadio();
     static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-                AddPersona();
-                Console.WriteLine("Persona Added");
+                AddEstadio();
+                Console.WriteLine("Estadio Added");
            }
 
-        private static void AddPersona()
+        private static void AddEstadio()
         {
-            var persona = new Persona();
+            var estadio = new Estadio();
 
-                persona.Nombre = "Joe";
-                persona.Documento  = "123 456";
-                persona.NumeroTelefono = "555 6643";
-            _repoPersona.AddPersona(persona);
+                estadio.Nombre = "Palogrande";
+                estadio.Direccion  = "unknown";
+            _repoEstadio.AddEstadio(estadio);
         }
+
+        private static void DeleteEstadio(int 1);
+
     }
 }

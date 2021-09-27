@@ -40,8 +40,8 @@ namespace TorneoFutbol.App.Persistencia
             if (municipiofound != null)
             {
                 municipiofound.Nombre = municipio.Nombre;
-                municipiofound.Documento = municipio.Documento;
-                municipiofound.NumeroTelefono = municipio.NumeroTelefono;
+                municipiofound.Departamento = municipio.Departamento;
+                municipiofound.Estadio = municipio.Estadio;
 
                 _appContext.SaveChanges();
             }
