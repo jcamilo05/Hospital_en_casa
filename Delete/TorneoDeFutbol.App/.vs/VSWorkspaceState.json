@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TorneoDeFutbol.App.Consola",
+    "\\TorneoDeFutbol.App.Dominio",
+    "\\TorneoDeFutbol.App.Dominio\\Entidad",
+    "\\TorneoDeFutbol.App.Persistencia",
+    "\\TorneoDeFutbol.App.Persistencia\\AppRepositorio"
+  ],
+  "SelectedNode": "\\TorneoDeFutbol.App.Dominio\\Entidad\\Jugador.cs",
+  "PreviewInSolutionExplorer": false
+}
