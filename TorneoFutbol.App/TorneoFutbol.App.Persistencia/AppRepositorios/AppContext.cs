@@ -5,9 +5,8 @@ namespace TorneoFutbol.App.Persistencia
 {
    public class AppContext : DbContext
     {
-        public DbSet<Persona> Personas {get; set;}
         public DbSet<Arbitro> Arbitros {get; set;}
-        public DbSet<DirectorTecnico> DirectorTecnicos {get; set;}
+        public DbSet<DT> DTs {get; set;}
         public DbSet<Jugador> Jugadores {get; set;}
         public DbSet<Equipo> Equipos {get; set;}
         public DbSet<Municipio> Municipios {get; set;}
@@ -20,7 +19,7 @@ namespace TorneoFutbol.App.Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=TorneoFutbolData");
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=TorneoFutbol");
             }
  
         }

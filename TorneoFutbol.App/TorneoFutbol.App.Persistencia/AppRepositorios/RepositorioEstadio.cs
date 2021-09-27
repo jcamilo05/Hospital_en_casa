@@ -1,52 +1,59 @@
 using System.Collections.Generic;
 using System.Linq;
 using TorneoFutbol.App.Dominio;
-using TorneoFutbol.App.Persistencia;
 
 namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioEstadio : IRepositorioEstadio
     {
-        private readonly Persistencia.AppContext _appContext = new Persistencia.AppContext();
+        private readonly AppContext _appContext;
 
+        public RepositorioEstadio(AppContext appContext)
+        {
+            _appContext=appContext;
+        }
         Estadio IRepositorioEstadio.AddEstadio(Estadio estadio)
         {
-            var estadioAdded = _appContext.Estadios.Add(estadio);
+            var estadioAdicionado=_appContext.Estadios.Add(estadio);
             _appContext.SaveChanges();
-            return estadioAdded.Entity; 
+            return estadioAdicionado.Entity;
         }
 
         void IRepositorioEstadio.DeleteEstadio(int idEstadio)
         {
-            var estadiofound = _appContext.Estadios.FirstOrDefault(p => p.ID == idEstadio);
-            if (estadiofound == null)
+            var estadioEncontrado=_appContext.Estadios.FirstOrDefault(p => p.ID==idEstadio);
+            if (estadioEncontrado==null)
                 return;
-            _appContext.Estadios.Remove(estadiofound);
+            _appContext.Estadios.Remove(estadioEncontrado);
             _appContext.SaveChanges();
         }
 
-        IEnumerable<Estadio> IRepositorioEstadio.GetAllEstadios()
+        IEnumerable<Estadio> IRepositorioEstadio.GetAllEstadio()
         {
             return _appContext.Estadios;
         }
-        
+
         Estadio IRepositorioEstadio.GetEstadio(int idEstadio)
         {
             return _appContext.Estadios.FirstOrDefault(p => p.ID == idEstadio);
         }
+
         Estadio IRepositorioEstadio.UpdateEstadio(Estadio estadio)
         {
-            var estadiofound = _appContext.Estadios.FirstOrDefault(p => p.ID == estadio.ID);
-            if (estadiofound != null)
+            var estadioEncontrado=_appContext.Estadios.FirstOrDefault(p => p.ID == estadio.ID);
+            if (estadioEncontrado!=null)
             {
-                estadiofound.Nombre = estadio.Nombre;
-                estadiofound.Direccion = estadio.Direccion;
+                estadioEncontrado.ID=estadio.ID;
+                estadioEncontrado.Nombre=estadio.Nombre;
+                estadioEncontrado.Direccion=estadio.Direccion;
+                
 
-                _appContext.SaveChanges();
+            _appContext.SaveChanges();
             }
+            return estadioEncontrado;
 
-            return estadiofound;
         }
-
     }
 }
+        
+        

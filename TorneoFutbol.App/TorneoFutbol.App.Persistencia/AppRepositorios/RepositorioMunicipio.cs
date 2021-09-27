@@ -1,53 +1,59 @@
 using System.Collections.Generic;
 using System.Linq;
 using TorneoFutbol.App.Dominio;
-using TorneoFutbol.App.Persistencia;
 
 namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioMunicipio : IRepositorioMunicipio
     {
-        private readonly Persistencia.AppContext _appContext = new Persistencia.AppContext();
+        private readonly AppContext _appContext;
 
+        public RepositorioMunicipio(AppContext appContext)
+        {
+            _appContext=appContext;
+        }
         Municipio IRepositorioMunicipio.AddMunicipio(Municipio municipio)
         {
-            var municipioAdded = _appContext.Municipios.Add(municipio);
+            var municipioAdicionado=_appContext.Municipios.Add(municipio);
             _appContext.SaveChanges();
-            return municipioAdded.Entity; 
+            return municipioAdicionado.Entity;
         }
 
         void IRepositorioMunicipio.DeleteMunicipio(int idMunicipio)
         {
-            var municipiofound = _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
-            if (municipiofound == null)
+            var municipioEncontrado=_appContext.Municipios.FirstOrDefault(p => p.ID==idMunicipio);
+            if (municipioEncontrado==null)
                 return;
-            _appContext.Municipios.Remove(municipiofound);
+            _appContext.Municipios.Remove(municipioEncontrado);
             _appContext.SaveChanges();
         }
 
-        IEnumerable<Municipio> IRepositorioMunicipio.GetAllMunicipios()
+        IEnumerable<Municipio> IRepositorioMunicipio.GetAllMunicipio()
         {
             return _appContext.Municipios;
         }
-        
+
         Municipio IRepositorioMunicipio.GetMunicipio(int idMunicipio)
         {
             return _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
         }
+
         Municipio IRepositorioMunicipio.UpdateMunicipio(Municipio municipio)
         {
-            var municipiofound = _appContext.Municipios.FirstOrDefault(p => p.ID == municipio.ID);
-            if (municipiofound != null)
+            var municipioEncontrado=_appContext.Municipios.FirstOrDefault(p => p.ID == municipio.ID);
+            if (municipioEncontrado!=null)
             {
-                municipiofound.Nombre = municipio.Nombre;
-                municipiofound.Departamento = municipio.Departamento;
-                municipiofound.Estadio = municipio.Estadio;
+                municipioEncontrado.ID=municipio.ID;
+                municipioEncontrado.Nombre=municipio.Nombre;
+                municipioEncontrado.Departamento=municipio.Departamento;
+                
 
-                _appContext.SaveChanges();
+            _appContext.SaveChanges();
             }
+            return municipioEncontrado;
 
-            return municipiofound;
         }
-
     }
 }
+        
+        

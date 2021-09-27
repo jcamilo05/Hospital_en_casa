@@ -4,11 +4,14 @@ namespace TorneoFutbol.App.Dominio
     /// <summary>Class <c>Jugador</c>
     /// Modela un Jugador de un equipo 
     /// </summary>   
-    public class Jugador : Persona
+    public class Jugador 
     {
-        /// Numero del jugador (Observar bien si lo ponemos como string o entero)
+        public int ID { get; set; }
+        public string Nombre{ get; set; } 
+        public string Documento{ get; set; } 
+        public string NumeroTelefono{ get; set; } 
+        
         public string Numero { get; set; }
-        /// Posicion de juego del jugador
         public string Posicion { get; set; }
     }
 }

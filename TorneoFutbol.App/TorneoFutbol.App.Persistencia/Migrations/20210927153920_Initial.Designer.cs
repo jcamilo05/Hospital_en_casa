@@ -10,7 +10,7 @@ using TorneoFutbol.App.Persistencia;
 namespace TorneoFutbol.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210921003402_Initial")]
+    [Migration("20210927153920_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -226,11 +226,11 @@ namespace TorneoFutbol.App.Persistencia.Migrations
                     b.HasDiscriminator().HasValue("Arbitro");
                 });
 
-            modelBuilder.Entity("TorneoFutbol.App.Dominio.DirectorTecnico", b =>
+            modelBuilder.Entity("TorneoFutbol.App.Dominio.DT", b =>
                 {
                     b.HasBaseType("TorneoFutbol.App.Dominio.Persona");
 
-                    b.HasDiscriminator().HasValue("DirectorTecnico");
+                    b.HasDiscriminator().HasValue("DT");
                 });
 
             modelBuilder.Entity("TorneoFutbol.App.Dominio.Jugador", b =>
@@ -257,7 +257,7 @@ namespace TorneoFutbol.App.Persistencia.Migrations
                         .WithMany()
                         .HasForeignKey("DesempenioID");
 
-                    b.HasOne("TorneoFutbol.App.Dominio.DirectorTecnico", "Director")
+                    b.HasOne("TorneoFutbol.App.Dominio.DT", "Director")
                         .WithMany()
                         .HasForeignKey("DirectorID");
 

@@ -128,9 +128,10 @@ F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\bin\Debug\netcor
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\bin\Debug\netcoreapp3.1\TorneoFutbol.App.Persistencia.dll
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\bin\Debug\netcoreapp3.1\TorneoFutbol.App.Dominio.pdb
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\bin\Debug\netcoreapp3.1\TorneoFutbol.App.Persistencia.pdb
-F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.csprojAssemblyReference.cache
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.AssemblyInfoInputs.cache
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.AssemblyInfo.cs
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.csproj.CoreCompileInputs.cache
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.csproj.CopyComplete
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.genruntimeconfig.cache
+F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.csproj.AssemblyReference.cache
+F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Consola\obj\Debug\netcoreapp3.1\TorneoFutbol.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
