@@ -1,0 +1,25 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.ListDtsModel
+@{
+}
+<h1>Lista de Directores Tecnicos</h1>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Telefono</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dt in Model.Dts)
+        {
+            <tr>
+                <th>@dt.Nombre</th>
+                <td>@dt.Documento</td>
+                <td>@dt.NumeroTelefono</td>
+            </tr>
+        }
+    </tbody>
+</table>
