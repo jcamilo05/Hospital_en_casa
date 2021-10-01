@@ -6,12 +6,7 @@ namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioDT : IRepositorioDT
     {
-        private readonly AppContext _appContext;
-
-        public RepositorioDT(AppContext appContext)
-        {
-            _appContext=appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
         DT IRepositorioDT.AddDT(DT dt)
         {
             var dtAdicionado=_appContext.DTs.Add(dt);
@@ -32,6 +27,14 @@ namespace TorneoFutbol.App.Persistencia
         {
             return _appContext.DTs.FirstOrDefault(p => p.ID == idDT);
         }
+
+        //----------------------------------------------------------
+        //Esta parte hacia falta en el IRepositorio el getAll 
+         IEnumerable<DT> IRepositorioDT.GetAllDT()
+        {
+            return _appContext.DTs;
+        }
+        //-----------------------------------------------------------
 
         DT IRepositorioDT.UpdateDT(DT dt)
         {

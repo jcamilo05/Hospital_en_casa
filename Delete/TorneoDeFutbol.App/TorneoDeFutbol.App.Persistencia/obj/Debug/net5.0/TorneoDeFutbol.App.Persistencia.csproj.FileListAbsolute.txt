@@ -52,3 +52,21 @@ C:\Users\EDISONDANIELARELLANO\Desktop\RepositorioTorneo\TorneoDeFutbol.App\Torne
 C:\Users\EDISONDANIELARELLANO\Desktop\RepositorioTorneo\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoDeFutbol.App.Persistencia.dll
 C:\Users\EDISONDANIELARELLANO\Desktop\RepositorioTorneo\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.pdb
 C:\Users\EDISONDANIELARELLANO\Desktop\RepositorioTorneo\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.genruntimeconfig.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\TorneoDeFutbol.App.Persistencia.deps.json
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\TorneoDeFutbol.App.Persistencia.runtimeconfig.json
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\TorneoDeFutbol.App.Persistencia.runtimeconfig.dev.json
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\TorneoDeFutbol.App.Persistencia.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\ref\TorneoDeFutbol.App.Persistencia.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\TorneoDeFutbol.App.Persistencia.pdb
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\TorneoDeFutbol.App.Dominio.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\bin\Debug\net5.0\TorneoDeFutbol.App.Dominio.pdb
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.AssemblyInfo.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.csproj.CopyComplete
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoDeFutbol.App.Persistencia.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.pdb
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\Delete\TorneoDeFutbol.App\TorneoDeFutbol.App.Persistencia\obj\Debug\net5.0\TorneoDeFutbol.App.Persistencia.genruntimeconfig.cache
