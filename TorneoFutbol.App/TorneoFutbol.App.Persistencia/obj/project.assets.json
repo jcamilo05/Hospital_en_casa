@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Oscar Regino\\.nuget\\packages\\": {}
+    "C:\\Users\\camil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "projectUniqueName": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
       "projectName": "TorneoFutbol.App.Persistencia",
-      "projectPath": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Oscar Regino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
+      "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
+      "outputPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Oscar Regino\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7287,8 +7287,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+            "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+              "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
             }
           }
         }
@@ -7339,7 +7339,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
