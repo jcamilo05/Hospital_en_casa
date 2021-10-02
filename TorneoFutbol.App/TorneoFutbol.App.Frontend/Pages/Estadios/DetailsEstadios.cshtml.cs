@@ -9,17 +9,25 @@ using TorneoFutbol.App.Dominio;
 
 namespace TorneoFutbol.App.Frontend.Pages.Estadios
 {
-    public class ListEstadiosModel : PageModel
+    public class DetailsEstadiosModel : PageModel
     {
         private readonly IRepositorioEstadio _repoEstadio;
-        public IEnumerable<Estadio> estadios {get;set;}
-        public ListEstadiosModel(IRepositorioEstadio repoEstadio)
+        public Estadio estadio {get;set;}
+        public DetailsEstadiosModel(IRepositorioEstadio repoEstadio)
         {
             _repoEstadio= repoEstadio;
         }  
-        public void OnGet()
+        public IActionResult OnGet(int id)
         {
-            estadios = _repoEstadio.GetAllEstadio();
+            estadio = _repoEstadio.GetEstadio(id);
+            if (estadio == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }

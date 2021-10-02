@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +13,7 @@ namespace TorneoFutbol.App.Frontend.Pages.Dts
     {
         private readonly IRepositorioDT _repoDT;
         public IEnumerable<DT> dts {get;set;}
-        public ListModel(IRepositorioDT repoDt)
+        public ListDtsModel(IRepositorioDT repoDt)
         {
             _repoDT= repoDt;
         }

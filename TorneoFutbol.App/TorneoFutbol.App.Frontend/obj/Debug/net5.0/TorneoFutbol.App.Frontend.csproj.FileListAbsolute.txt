@@ -72,3 +72,13 @@ C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App
 C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
 C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
 C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Equipos\ListEquipos.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadios\ListEstadios.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\ListJugadores.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\ListMunicipios.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Arbitros\Details.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Dts\DetailsDts.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Equipos\DetailsEquipos.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadios\DetailsEstadios.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\DetailsJugadores.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\DetailsMunicipios.cshtml.g.cs

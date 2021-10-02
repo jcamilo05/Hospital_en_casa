@@ -1,5 +1,5 @@
 ﻿@page
-@model TorneoFutbol.App.Frontend.Pages.ListDtsModel
+@model TorneoFutbol.App.Frontend.Pages.Dts.ListDtsModel
 @{
 }
 <h1>Lista de Directores Tecnicos</h1>
@@ -10,15 +10,17 @@
             <th scope="col">Nombre</th>
             <th scope="col">Documento</th>
             <th scope="col">Telefono</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var dt in Model.Dts)
+        @foreach (var dt in Model.dts)
         {
             <tr>
                 <th>@dt.Nombre</th>
                 <td>@dt.Documento</td>
                 <td>@dt.NumeroTelefono</td>
+                <td><a class="btn btn-primary" asp-page="./DetailsDts" asp-route-id="@dt.ID">Detalles</a></td>
             </tr>
         }
     </tbody>
