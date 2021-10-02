@@ -27,12 +27,12 @@ namespace TorneoFutbol.App.Consola
             //UpdateArbitro();
             //BuscarArbitro(1);
 
-            //AddMunicipio();
+            AddMunicipio();
             //BuscarMunicipio(1);
             //UpdateMunicipio();
             //DeleteMunicipio(1);
 
-            //AddJugador();
+            AddJugador();
             //UpdateJugador();
             Console.WriteLine("Previous line succesfully performed");
             //BuscarJugador(2);

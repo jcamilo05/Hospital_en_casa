@@ -23,3 +23,16 @@ F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\n
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csproj.CopyComplete
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.deps.json
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.pdb
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Dominio.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbol.App.Dominio.pdb
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.csproj.CopyComplete
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbol.App.Persistencia.pdb
