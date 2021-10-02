@@ -1,5 +1,5 @@
 ﻿@page
-@model TorneoFutbol.App.Frontend.Pages.ListDtsModel
+@model TorneoFutbol.App.Frontend.Pages.Dts.ListDtsModel
 @{
 }
 <h1>Lista de Directores Tecnicos</h1>
@@ -13,7 +13,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var dt in Model.Dts)
+        @foreach (var dt in Model.dts)
         {
             <tr>
                 <th>@dt.Nombre</th>

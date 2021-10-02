@@ -14,7 +14,7 @@ namespace TorneoFutbol.App.Frontend.Pages.Jugadores
         
         private readonly IRepositorioJugador _repoJugador;
         public IEnumerable<Jugador> jugadores {get;set;}
-        public ListModel(IRepositorioJugador repoJugador)
+        public ListJugadoresModel(IRepositorioJugador repoJugador)
         {
             _repoJugador= repoJugador;
         }  

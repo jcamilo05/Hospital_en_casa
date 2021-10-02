@@ -13,7 +13,7 @@ namespace TorneoFutbol.App.Frontend.Pages.Estadios
     {
         private readonly IRepositorioEstadio _repoEstadio;
         public IEnumerable<Estadio> estadios {get;set;}
-        public ListModel(IRepositorioEstadio repoEstadio)
+        public ListEstadiosModel(IRepositorioEstadio repoEstadio)
         {
             _repoEstadio= repoEstadio;
         }  
