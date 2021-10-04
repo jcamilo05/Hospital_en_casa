@@ -2,3 +2,24 @@
 @model TorneoFutbol.App.Frontend.Pages.Equipos.ListEquiposModel
 @{
 }
+<h1>Lista de Equipos</h1>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Municipio</th>
+            <th scope="col">Desempeño</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var equipo in Model.equipos)
+        {
+            <tr>
+                <th>@equipo.Nombre</th>
+                <td>@equipo.Municipio</td>
+                <td>@equipo.Desempeno</td>
+                <td><a class="btn btn-primary" asp-page="./DetailsEquipos" asp-route-id="@equipo.ID">Detalles</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

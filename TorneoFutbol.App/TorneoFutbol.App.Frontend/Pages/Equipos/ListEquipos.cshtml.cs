@@ -11,8 +11,15 @@ namespace TorneoFutbol.App.Frontend.Pages.Equipos
 {
     public class ListEquiposModel : PageModel
     {
+        private readonly IRepositorioEquipo _repoEquipo;
+        public IEnumerable<Equipo> equipos { get; set; }
+        public ListEquiposModel(IRepositorioEquipo repoEquipo)
+        {
+            _repoEquipo = repoEquipo;
+        }
         public void OnGet()
         {
+            equipos=_repoEquipo.GetAllEquipo();
         }
     }
 }

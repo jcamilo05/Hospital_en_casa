@@ -2,3 +2,23 @@
 @model TorneoFutbol.App.Frontend.Pages.Dts.DetailsDtsModel
 @{
 }
+<h1>Detalles de los Directores Tecnicos</h1>
+<table class="table table-dark">
+    <tr>
+        <th scope="col">Nombre</th>
+        <td>@Model.dt.Nombre</td>
+    </tr>
+    <tr>
+        <th scope="col">Documento</th>
+        <td>@Model.dt.Documento</td>
+    </tr>
+    <tr>
+        <th scope="col">Numero de Telefono</th>
+        <td>@Model.dt.NumeroTelefono</td>
+    </tr>
+    <tr>
+        <th scope="col">Equipo</th>
+        <td>@Model.dt.Equipo</td>
+    </tr>
+</table>
+<a class="btn btn-primary" asp-page="./ListDts">Volver</a>
