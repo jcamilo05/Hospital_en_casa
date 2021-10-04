@@ -1,0 +1,21 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Municipios.CreateMunicipiosModel
+@{
+}
+<h1>Nuevo Municipio</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="municipio.Nombre"></label>
+        <input asp-for="municipio.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="municipio.Departamento"></label>
+        <input asp-for="municipio.Departamento" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="municipio.Estadio"></label>
+        <input asp-for="municipio.Estadio" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Municipio</button>
+</form>
+<a class="btn btn-secondary" asp-page="./ListMunicipios">Volver</a>

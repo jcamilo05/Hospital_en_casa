@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using TorneoFutbol.App.Persistencia;
 using TorneoFutbol.App.Dominio;
-
 namespace TorneoFutbol.App.Frontend.Pages.Estadios
 {
     public class DetailsEstadiosModel : PageModel

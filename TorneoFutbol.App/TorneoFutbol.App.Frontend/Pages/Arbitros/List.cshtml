@@ -3,6 +3,7 @@
 @{
 }
 <h1>Lista de Arbitros</h1>
+<a class="btn btn-primary" asp-page="./Create">Crear</a>
 <table class="table">
     <thead class="thead-dark">
         <tr>
@@ -14,6 +15,7 @@
         </tr>
     </thead>
     <tbody>
+
         @foreach (var arbitro in Model.arbitros)
         {
             <tr>
@@ -21,7 +23,10 @@
                 <td>@arbitro.Documento</td>
                 <td>@arbitro.NumeroTelefono</td>
                 <td>@arbitro.Colegio</td>
-                <td><a class="btn btn-primary" asp-page="./Details" asp-route-id="@arbitro.ID">Detalles</a></td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-id="@arbitro.ID">Detalles</a>
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@arbitro.ID">Editar</a>
+                </td>
             </tr>
         }
     </tbody>
