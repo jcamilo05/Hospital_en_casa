@@ -11,8 +11,15 @@ namespace TorneoFutbol.App.Frontend.Pages.Municipios
 {
     public class ListMunicipiosModel : PageModel
     {
+        private readonly IRepositorioMunicipio _repoMunicipio;
+        public IEnumerable<Municipio> municipios { get; set; }
+        public ListMunicipiosModel(IRepositorioMunicipio repoMunicipio)
+        {
+            _repoMunicipio = repoMunicipio;
+        }
         public void OnGet()
         {
+            municipios=_repoMunicipio.GetAllMunicipio();
         }
     }
 }

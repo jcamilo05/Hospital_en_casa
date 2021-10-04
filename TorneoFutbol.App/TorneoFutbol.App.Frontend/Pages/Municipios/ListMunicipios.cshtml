@@ -2,3 +2,25 @@
 @model TorneoFutbol.App.Frontend.Pages.Municipios.ListMunicipiosModel
 @{
 }
+<h1>Lista de Municipios</h1>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Departamento</th>
+            <th scope="col">Estadio</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var municipio in Model.municipios)
+        {
+            <tr>
+                <th>@municipio.Nombre</th>
+                <td>@municipio.Departamento</td>
+                <td>@municipio.Estadio</td>
+                <td><a class="btn btn-primary" asp-page="./DetailsMunicipios" asp-route-id="@municipio.ID">Detalles</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
