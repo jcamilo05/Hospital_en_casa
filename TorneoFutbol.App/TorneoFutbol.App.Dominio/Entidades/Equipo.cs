@@ -12,7 +12,7 @@ namespace TorneoFutbol.App.Dominio
         public string Nombre { get; set; }
         //public DT Director { get; set; }
         public Municipio Municipio { get; set; } 
-        public Desempenio Desempenio {get;set;}
+        public Desempeno Desempeno {get;set;}
         public ICollection<Jugador> Jugadores { get; set; } 
     }
 }

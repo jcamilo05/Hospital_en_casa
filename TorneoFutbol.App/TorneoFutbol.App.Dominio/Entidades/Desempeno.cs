@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TorneoFutbol.App.Dominio
 {
-    public class Desempenio
+    public class Desempeno
     {
         //PartidosJugados
         public int ID {get; set;}

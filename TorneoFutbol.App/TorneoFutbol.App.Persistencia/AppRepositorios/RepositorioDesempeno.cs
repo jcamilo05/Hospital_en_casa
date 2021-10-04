@@ -16,7 +16,7 @@ namespace TorneoFutbol.App.Persistencia
 
         void IRepositorioDesempeno.DeleteDesempeno(int idDesempeno)
         {
-            var desempenoEncontrado=_appContext.Desempenos.FirstOrDefault(p => p.DesempenoID==idDesempeno);
+            var desempenoEncontrado=_appContext.Desempenos.FirstOrDefault(p => p.ID==idDesempeno);
             if (desempenoEncontrado==null)
                 return;
             _appContext.Desempenos.Remove(desempenoEncontrado);
@@ -30,15 +30,15 @@ namespace TorneoFutbol.App.Persistencia
 
         Desempeno IRepositorioDesempeno.GetDesempeno(int idDesempeno)
         {
-            return _appContext.Desempenos.FirstOrDefault(p => p.DesempenoID == idDesempeno);
+            return _appContext.Desempenos.FirstOrDefault(p => p.ID == idDesempeno);
         }
 
         Desempeno IRepositorioDesempeno.UpdateDesempeno(Desempeno desempeno)
         {
-            var desempenoEncontrado=_appContext.Desempenos.FirstOrDefault(p => p.DesempenoID == desempeno.DesempenoID);
+            var desempenoEncontrado=_appContext.Desempenos.FirstOrDefault(p => p.ID == desempeno.ID);
             if (desempenoEncontrado!=null)
             {
-                desempenoEncontrado.DesempenoID=desempeno.DesempenoID;
+                desempenoEncontrado.ID=desempeno.ID;
                 desempenoEncontrado.PartidosJugados=desempeno.PartidosJugados;
                 desempenoEncontrado.PartidosGanados=desempeno.PartidosGanados;
                 desempenoEncontrado.PartidosEmpatados=desempeno.PartidosEmpatados;

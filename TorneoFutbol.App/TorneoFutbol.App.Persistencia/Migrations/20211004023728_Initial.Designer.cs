@@ -10,8 +10,8 @@ using TorneoFutbol.App.Persistencia;
 namespace TorneoFutbol.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211003204317_Inicial")]
-    partial class Inicial
+    [Migration("20211004023728_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -71,7 +71,7 @@ namespace TorneoFutbol.App.Persistencia.Migrations
                     b.ToTable("DTs");
                 });
 
-            modelBuilder.Entity("TorneoFutbol.App.Dominio.Desempenio", b =>
+            modelBuilder.Entity("TorneoFutbol.App.Dominio.Desempeno", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -98,7 +98,7 @@ namespace TorneoFutbol.App.Persistencia.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Desempenios");
+                    b.ToTable("Desempenos");
                 });
 
             modelBuilder.Entity("TorneoFutbol.App.Dominio.Equipo", b =>
@@ -108,7 +108,7 @@ namespace TorneoFutbol.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int?>("DesempenioID")
+                    b.Property<int?>("DesempenoID")
                         .HasColumnType("int");
 
                     b.Property<int?>("MunicipioID")
@@ -119,7 +119,7 @@ namespace TorneoFutbol.App.Persistencia.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("DesempenioID");
+                    b.HasIndex("DesempenoID");
 
                     b.HasIndex("MunicipioID");
 
@@ -212,11 +212,11 @@ namespace TorneoFutbol.App.Persistencia.Migrations
                     b.Property<int?>("PartidoID")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("TipoNovedad")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("time")
-                        .HasColumnType("datetime2");
 
                     b.HasKey("ID");
 
@@ -279,15 +279,15 @@ namespace TorneoFutbol.App.Persistencia.Migrations
 
             modelBuilder.Entity("TorneoFutbol.App.Dominio.Equipo", b =>
                 {
-                    b.HasOne("TorneoFutbol.App.Dominio.Desempenio", "Desempenio")
+                    b.HasOne("TorneoFutbol.App.Dominio.Desempeno", "Desempeno")
                         .WithMany()
-                        .HasForeignKey("DesempenioID");
+                        .HasForeignKey("DesempenoID");
 
                     b.HasOne("TorneoFutbol.App.Dominio.Municipio", "Municipio")
                         .WithMany()
                         .HasForeignKey("MunicipioID");
 
-                    b.Navigation("Desempenio");
+                    b.Navigation("Desempeno");
 
                     b.Navigation("Municipio");
                 });
