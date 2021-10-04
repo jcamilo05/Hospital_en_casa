@@ -16,6 +16,9 @@ namespace TorneoFutbol.App.Dominio
         public int MarcadorInicialLocal { get; set; }
         public Estadio Estadio { get; set; }
         public Arbitro Arbitro{ get; set;}
-        public Novedad Novedad {get;set;}
+        //se remueve atributo tipo novedad para tener una relacion 1 a muchos con ICollection
+        //public Novedad Novedad {get;set;}
+        public ICollection<Novedad> Novedades { get; set; }
     }
+    
 }

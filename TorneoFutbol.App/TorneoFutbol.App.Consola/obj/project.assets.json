@@ -5797,35 +5797,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\camil\\.nuget\\packages\\": {}
+    "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
+      "projectUniqueName": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\TorneoFutbol-experimentalbranch\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
       "projectName": "TorneoFutbol.App.Consola",
-      "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\obj\\",
+      "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\TorneoFutbol-experimentalbranch\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\TorneoFutbol-experimentalbranch\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\EDISONDANIELARELLANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-              "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+            "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\TorneoFutbol-experimentalbranch\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\TorneoFutbol-experimentalbranch\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
             },
-            "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
-              "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
+            "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\TorneoFutbol-experimentalbranch\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\TorneoFutbol-experimentalbranch\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
             }
           }
         }
@@ -5857,12 +5859,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.19, 3.1.19]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

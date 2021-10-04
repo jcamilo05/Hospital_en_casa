@@ -17,3 +17,23 @@ F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netsta
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.pdb
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.csproj.AssemblyReference.cache
 F:\repos\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbol.App.Dominio.deps.json
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbol.App.Dominio.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.AssemblyInfo.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.dll
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbol.App.Dominio.deps.json
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbol.App.Dominio.dll
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.AssemblyInfo.cs
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.dll
+C:\Users\EDISONDANIELARELLANO\Desktop\TorneoFutbol-experimentalbranch\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbol.App.Dominio.pdb

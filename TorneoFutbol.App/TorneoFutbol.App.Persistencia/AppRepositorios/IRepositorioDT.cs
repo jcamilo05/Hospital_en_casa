@@ -5,9 +5,11 @@ namespace TorneoFutbol.App.Persistencia
 {
     public interface IRepositorioDT
     {
+        IEnumerable<DT> GetAllDT();
         DT AddDT (DT dt);
         DT UpdateDT (DT dt);
         void DeleteDT (int idDT);
         DT GetDT (int idDT);
+        DT LinkDT (int idDT, int idEquipo);
     }
 }

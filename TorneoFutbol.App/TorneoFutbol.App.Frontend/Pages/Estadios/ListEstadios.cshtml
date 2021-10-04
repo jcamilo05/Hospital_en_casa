@@ -1,0 +1,24 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Estadios.ListEstadiosModel
+@{
+}
+<h1>Lista de Estadios</h1>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Direccion</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estadio in Model.estadios)
+        {
+            <tr>
+                <th>@estadio.Nombre</th>
+                <td>@estadio.Direccion</td>
+                <td><a class="btn btn-primary" asp-page="./DetailsEstadios" asp-route-id="@estadio.ID">Detalles</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

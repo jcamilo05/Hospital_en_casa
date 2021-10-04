@@ -1,17 +1,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using TorneoFutbol.App.Dominio;
+using TorneoFutbol.App.Persistencia;
 
 namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioMunicipio : IRepositorioMunicipio
     {
-        private readonly AppContext _appContext;
+        /*private readonly AppContext _appContext;
 
         public RepositorioMunicipio(AppContext appContext)
         {
             _appContext=appContext;
-        }
+        }*/
+        private readonly AppContext _appContext = new AppContext();
         Municipio IRepositorioMunicipio.AddMunicipio(Municipio municipio)
         {
             var municipioAdicionado=_appContext.Municipios.Add(municipio);
@@ -51,7 +53,24 @@ namespace TorneoFutbol.App.Persistencia
             _appContext.SaveChanges();
             }
             return municipioEncontrado;
-
+        }
+        Municipio IRepositorioMunicipio.LinkEstadio(int idMunicipio, int idEstadio)
+        {
+            var estadioEncontrado = _appContext.Estadios.FirstOrDefault(e => e.ID == idEstadio);
+            if (estadioEncontrado!=null)
+            {
+                System.Console.WriteLine("se encontró estadio con id "+idEstadio);
+                var municipioEncontrado = _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
+                if (municipioEncontrado!=null)
+                {
+                    System.Console.WriteLine("se encontró municipio con id "+idMunicipio);
+                    municipioEncontrado.Estadio = estadioEncontrado;
+                    _appContext.SaveChanges();
+                    System.Console.WriteLine("se linkeo correctamente");
+                }     
+            } 
+            //System.Console.WriteLine("saliendo de link estadio");
+            return null;
         }
     }
 }

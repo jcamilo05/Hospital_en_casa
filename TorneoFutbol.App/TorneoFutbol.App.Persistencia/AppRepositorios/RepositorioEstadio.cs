@@ -6,12 +6,13 @@ namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioEstadio : IRepositorioEstadio
     {
-        private readonly AppContext _appContext;
+       /* private readonly AppContext _appContext;
 
         public RepositorioEstadio(AppContext appContext)
         {
             _appContext=appContext;
-        }
+        }*/
+        private readonly AppContext _appContext = new AppContext();
         Estadio IRepositorioEstadio.AddEstadio(Estadio estadio)
         {
             var estadioAdicionado=_appContext.Estadios.Add(estadio);

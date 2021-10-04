@@ -6,12 +6,13 @@ namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioEquipo : IRepositorioEquipo
     {
-        private readonly AppContext _appContext;
+        /*private readonly AppContext _appContext;
 
         public RepositorioEquipo(AppContext appContext)
         {
             _appContext=appContext;
-        }
+        }*/
+        private readonly AppContext _appContext = new AppContext();
         Equipo IRepositorioEquipo.AddEquipo(Equipo equipo)
         {
             var equipoAdicionado=_appContext.Equipos.Add(equipo);
@@ -45,7 +46,7 @@ namespace TorneoFutbol.App.Persistencia
             {
                 equipoEncontrado.ID=equipo.ID;
                 equipoEncontrado.Nombre=equipo.Nombre;
-                equipoEncontrado.Director=equipo.Director;
+                //equipoEncontrado.Director=equipo.Director;
                 equipoEncontrado.Municipio=equipo.Municipio;
                 equipoEncontrado.Jugadores=equipo.Jugadores;
 
@@ -54,6 +55,21 @@ namespace TorneoFutbol.App.Persistencia
             return equipoEncontrado;
 
         }
+        void IRepositorioEquipo.AsignarJugador(int idEquipo, int idJugador)
+        {
+            var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.ID == idEquipo);
+            if (equipoEncontrado!=null)
+            {
+                var jugadorEncontrado = _appContext.Jugadores.FirstOrDefault(p => p.ID == idJugador);
+                if (jugadorEncontrado!=null)
+                {
+                    equipoEncontrado.Jugadores.Add(jugadorEncontrado);
+                    _appContext.SaveChanges();
+                }
+            }
+        } 
+
+        
     }
 }
         
