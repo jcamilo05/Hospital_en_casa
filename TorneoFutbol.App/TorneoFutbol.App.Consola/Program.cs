@@ -28,13 +28,13 @@ namespace TorneoFutbol.App.Consola
             Console.WriteLine("Hola Torneo Departamental!");
 
          Console.WriteLine("Hola Torneo Departamental!");
-            //AddArbitro();
+            AddArbitro();
             //AddArbitro();
             //UpdateArbitro();
             //BuscarArbitro(1);
             //BuscarArbitro(2);
 
-            //AddMunicipio();
+            AddMunicipio();
             //AddMunicipio();
             //UpdateMunicipio();
             //BuscarMunicipio(1);
@@ -42,49 +42,49 @@ namespace TorneoFutbol.App.Consola
 
             //DeleteMunicipio(1);
 
-            //AddJugador();
+            AddJugador();
             //AddJugador();
             //UpdateJugador();
             //BuscarJugador(1);
 
-            //AddDT();
+            AddDT();
             //BuscarDT(2);
             //EliminarDT(9);
 
-            //AddEstadio();
+            AddEstadio();
             //AddEstadio();
             //UpdateEstadio();
             //BuscarEstadio(1);
             //BuscarEstadio(2);
             //DeleteEstadio(4);
 
-            //AddEquipo();
+            AddEquipo();
             //AddEquipo();
             //UpdateEquipo();
             //BuscarEquipo(1);
             //BuscarEquipo(2);
             //linkDT(2,2);
-            //linkJugador(1,1);
+            linkJugador(1,1);
             //linkJugador(2,2);
             //linkEstadio(1,2);
             //linkEstadio(2,1);
 
-            //AddPartido();
+            AddPartido();
             //BuscarPartido(2);
             //linkLocal(2,1);
-            //linkVisitante(2,2);
+            linkVisitante(2,2);
             //linkEstadioPartido(1,1);
             //linkArbitroPartido(1,1);
             
-            //AddNovedad();
+            AddNovedad();
             //BuscarNovedad(2);
             //LinkNovedadPartido(2,1);
             //LinkNovedadJugador(2,2);
         }
-        /*
-        #===========================================#
-        #      Inicio Metodos Crud Arbitros         #
-        #===========================================#
+        
+        //#===========================================#
+        //#      Inicio Metodos Crud Arbitros         #
+        //#===========================================#
           
         private static void AddArbitro()
         {
@@ -123,11 +123,11 @@ namespace TorneoFutbol.App.Consola
             };
             _repoArbitro.UpdateArbitro(arbitro);
         }
-        /
-        #===========================================#
-        #      Inicio Metodos Crud Municipios       #
-        #===========================================#
-        /  
+        
+        //#===========================================#
+        //#      Inicio Metodos Crud Municipios       #
+        //#===========================================#
+         
         private static void AddMunicipio()
         {
             var municipio = new Municipio
@@ -161,11 +161,11 @@ namespace TorneoFutbol.App.Consola
         }
 
 
-        /*
-        #===========================================#
-        #      Inicio Metodos Crud Jugador          #
-        #===========================================#
-        / 
+        
+        //#===========================================#
+        //#      Inicio Metodos Crud Jugador          #
+        //#===========================================#
+        
         private static void AddJugador()
         {
             var jugador = new Jugador
@@ -203,11 +203,11 @@ namespace TorneoFutbol.App.Consola
             var jugador = _repoJugador.GetJugador(idJugador);
             _repoJugador.DeleteJugador(jugador.ID);
         }
-        /*
-        #===========================================#
-        #          Inicio Metodos Crud DT           #
-        #===========================================#
-        * 
+        
+        //#===========================================#
+        //#          Inicio Metodos Crud DT           #
+        //#===========================================#
+        
 
         private static void AddDT()
         {
@@ -247,11 +247,11 @@ namespace TorneoFutbol.App.Consola
             };
             _repoDT.UpdateDT(dt);
         }
-        /*
-        #===========================================#
-        #      Inicio Metodos Crud Estadio          #
-        #===========================================#
-        * 
+        
+        //#===========================================#
+        //#      Inicio Metodos Crud Estadio          #
+        //#===========================================#
+        
         private static void AddEstadio()
         {
             var estadio = new Estadio
@@ -283,11 +283,11 @@ namespace TorneoFutbol.App.Consola
             _repoEstadio.DeleteEstadio(idEstadio);
             Console.WriteLine("se eliminó correctamente");
         }
-        /*
-        #===========================================#
-        #      Inicio Metodos Crud Equipo           #
-        #===========================================#
-        * 
+        
+        //#===========================================#
+        //#      Inicio Metodos Crud Equipo           #
+        //#===========================================#
+         
         private static void AddEquipo()
         {
             var equipo = new Equipo
@@ -315,11 +315,11 @@ namespace TorneoFutbol.App.Consola
             //var equipo = _repoEquipo.(idEquipo);
             //Console.WriteLine(equipo.Nombre);
         }
-        /*
-        #===========================================#
-        #         Inicio Metodos Partido            #
-        #===========================================#
-        / 
+        
+        //#===========================================#
+        //#         Inicio Metodos Partido            #
+        //#===========================================#
+        
         private static void AddPartido()
         {
             DateTime localDate = DateTime.Now;
@@ -339,11 +339,11 @@ namespace TorneoFutbol.App.Consola
             Console.WriteLine(partido.EquipoVisitante);
         }
 
-        /*
-        #===========================================#
-        #         Inicio Metodos Novedad            #
-        #===========================================#
-        /     
+        
+        //#===========================================#
+        //#         Inicio Metodos Novedad            #
+        //#===========================================#
+           
 
         private static void AddNovedad()
         {
@@ -363,11 +363,11 @@ namespace TorneoFutbol.App.Consola
             Console.WriteLine(novedad.Time+", " +novedad.Partido+", "+novedad.TipoNovedad);
         }
 
-        /
-        #===========================================#
-        #      Inicio Metodos Asignaciones          #
-        #===========================================#
-        * 
+        
+        //#===========================================#
+        //#      Inicio Metodos Asignaciones          #
+        //#===========================================#
+        
         private static void linkDT (int idDT, int idEquipo)
         {
             var dt = _repoDT.LinkDT(idDT,idEquipo);
@@ -413,7 +413,7 @@ namespace TorneoFutbol.App.Consola
             var novedad = _repoNovedad.LinkNovedadJugador(idNovedad,idJugador);
             //Console.WriteLine("se agregó correctamente");
         }
-        */
+        
 
     }
 }
