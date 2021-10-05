@@ -18,7 +18,15 @@
     </tr>
     <tr>
         <th scope="col">Equipo</th>
-        <td>@Model.dt.Equipo</td>
+        @if (Model.dt.Equipo == null)
+        {
+            <td><a class="btn btn-primary" asp-page="./AddEquipo" asp-route-id="@Model.dt.ID">Asignar Equipo</a></td>
+        }
+        else
+        {
+            <td>@Model.dt.Equipo.Nombre</td>
+        }
+
     </tr>
 </table>
 <a class="btn btn-primary" asp-page="./ListDts">Volver</a>
