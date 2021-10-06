@@ -58,7 +58,8 @@ namespace TorneoFutbol.App.Persistencia
             return jugadorEncontrado;
         }
         //Asigna un equipo al objeto jugador
-        Equipo IRepositorioJugador.LinkJugador(int idJugador, int idEquipo)
+        /*
+        Jugador IRepositorioJugador.LinkJugador(int idJugador, int idEquipo)
         {
             var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.ID == idEquipo);
             if (equipoEncontrado!=null)
@@ -72,6 +73,23 @@ namespace TorneoFutbol.App.Persistencia
                     _appContext.SaveChanges();
                     System.Console.WriteLine("se linkeo correctamente");
                 } 
+            }
+            return null;
+        }
+
+        */
+        Equipo IRepositorioJugador.LinkJugador(int idJugador, int idEquipo)
+        {
+            var jugadorEncontrado = _appContext.Jugadores.FirstOrDefault(j => j.ID == idJugador);
+            if (jugadorEncontrado!=null)
+            {
+                var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.ID == idEquipo);
+                if (equipoEncontrado!=null)
+                {
+                    jugadorEncontrado.Equipo = equipoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return equipoEncontrado;
             }
             return null;
         }

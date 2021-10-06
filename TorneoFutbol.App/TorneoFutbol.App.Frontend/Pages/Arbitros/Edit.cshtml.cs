@@ -29,5 +29,10 @@ namespace TorneoFutbol.App.Frontend.Pages.Arbitros
                 return Page();
             }
         }
+        public IActionResult OnPost(Arbitro arbitro)
+        {
+            _repoArbitro.UpdateArbitro(arbitro);
+            return RedirectToPage("List");
+        }
     }
 }

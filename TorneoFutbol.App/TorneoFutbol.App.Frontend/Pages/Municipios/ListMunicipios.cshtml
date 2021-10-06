@@ -20,7 +20,10 @@
                 <th>@municipio.Nombre</th>
                 <td>@municipio.Departamento</td>
                 <td>@municipio.Estadio</td>
-                <td><a class="btn btn-primary" asp-page="./DetailsMunicipios" asp-route-id="@municipio.ID">Detalles</a></td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./DetailsMunicipios" asp-route-id="@municipio.ID">Detalles</a>
+                    <a class="btn btn-primary" asp-page="./EditMunicipios" asp-route-id="@municipio.ID">Editar</a>
+                </td>
             </tr>
         }
     </tbody>

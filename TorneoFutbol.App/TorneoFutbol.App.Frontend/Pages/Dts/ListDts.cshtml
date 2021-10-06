@@ -20,7 +20,10 @@
                 <th>@dt.Nombre</th>
                 <td>@dt.Documento</td>
                 <td>@dt.NumeroTelefono</td>
-                <td><a class="btn btn-primary" asp-page="./DetailsDts" asp-route-id="@dt.ID">Detalles</a></td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./DetailsDts" asp-route-id="@dt.ID">Detalles</a>
+                    <a class="btn btn-primary" asp-page="./EditDts" asp-route-id="@dt.ID">Editar</a>
+                </td>
             </tr>
         }
     </tbody>

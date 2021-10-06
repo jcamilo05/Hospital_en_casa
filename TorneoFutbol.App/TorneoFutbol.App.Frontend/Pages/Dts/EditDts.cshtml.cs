@@ -12,8 +12,28 @@ namespace TorneoFutbol.App.Frontend.Pages.Dts
 {
     public class EditDtsModel : PageModel
     {
-        public void OnGet()
+        private readonly IRepositorioDT _repoDT;
+        public DT dt { get; set; }
+        public EditDtsModel(IRepositorioDT repoDt)
         {
+            _repoDT = repoDt;
+        }
+        public IActionResult OnGet(int id)
+        {
+            dt = _repoDT.GetDT(id);
+            if (dt == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Page();
+            }
+        }
+        public IActionResult OnPost(DT dt)
+        {
+            _repoDT.UpdateDT(dt);
+            return RedirectToPage("ListDts");
         }
     }
 }

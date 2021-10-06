@@ -2,3 +2,24 @@
 @model TorneoFutbol.App.Frontend.Pages.Equipos.EditEquiposModel
 @{
 }
+<h1>Editar Equipo</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="equipo.ID"></label>
+        <input asp-for="equipo.ID" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="equipo.Nombre"></label>
+        <input asp-for="equipo.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="equipo.Municipio"></label>
+        <input asp-for="equipo.Municipio" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="equipo.Desempeno"></label>
+        <input asp-for="equipo.Desempeno" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar Equipo</button>
+</form>
+<a class="btn btn-secondary" asp-page="./ListEquipos">Volver</a>

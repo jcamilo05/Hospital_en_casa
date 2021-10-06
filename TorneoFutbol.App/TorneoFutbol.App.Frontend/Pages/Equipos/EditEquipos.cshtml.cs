@@ -12,8 +12,29 @@ namespace TorneoFutbol.App.Frontend.Pages.Equipos
 {
     public class EditEquiposModel : PageModel
     {
-        public void OnGet()
+        private readonly IRepositorioEquipo _repoEquipo;
+        public Equipo equipo { get; set; }
+        public EditEquiposModel(IRepositorioEquipo repoEquipo)
         {
+            _repoEquipo = repoEquipo;
+        }
+
+        public IActionResult OnGet(int id)
+        {
+            equipo = _repoEquipo.GetEquipo(id);
+            if (equipo == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Page();
+            }
+        }
+        public IActionResult OnPost(Equipo equipo)
+        {
+            _repoEquipo.UpdateEquipo(equipo);
+            return RedirectToPage("ListEquipos");
         }
     }
 }

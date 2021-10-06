@@ -2,3 +2,28 @@
 @model TorneoFutbol.App.Frontend.Pages.Dts.EditDtsModel
 @{
 }
+h1>Editar Director Tecnico</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="dt.ID"></label>
+        <input asp-for="dt.ID" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="dt.Nombre"></label>
+        <input asp-for="dt.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="dt.Documento"></label>
+        <input asp-for="dt.Documento" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="dt.NumeroTelefono"></label>
+        <input asp-for="dt.NumeroTelefono" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="dt.Equipo"></label>
+        <input asp-for="dt.Equipo" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar DT</button>
+</form>
+<a class="btn btn-secondary" asp-page="./ListDts">Volver</a>

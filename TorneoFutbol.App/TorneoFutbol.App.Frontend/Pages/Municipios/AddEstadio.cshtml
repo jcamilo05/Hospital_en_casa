@@ -1,0 +1,23 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Municipios.AddEstadioModel
+@{
+}
+<h1>Asignar Estadio</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="idMunicipio">Municipio</label>
+        <input id="idMunicipio" type="text" name="idMunicipio" value="@Model.municipio.ID" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label for="idEstadio">Estadio</label>
+        <select name="idEstadio" id="idEstadio" class="form-control">
+            @foreach (var estadio in Model.estadios)
+            {
+               <option value="@estadio.ID">@estadio.Nombre</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Asignar Estadio</button>
+</form>
+<a asp-page="./ListMunicipios" class="btn btn-secondary">Volver</a>
+

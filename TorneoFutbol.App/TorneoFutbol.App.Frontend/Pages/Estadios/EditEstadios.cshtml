@@ -2,3 +2,20 @@
 @model TorneoFutbol.App.Frontend.Pages.Estadios.EditEstadiosModel
 @{
 }
+<h1>Editar Estadio</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="estadio.ID"></label>
+        <input asp-for="estadio.ID" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estadio.Nombre"></label>
+        <input asp-for="estadio.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estadio.Direccion"></label>
+        <input asp-for="estadio.Direccion" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar Estadio</button>
+</form>
+<a class="btn btn-secondary" asp-page="./ListEstadios">Volver</a>

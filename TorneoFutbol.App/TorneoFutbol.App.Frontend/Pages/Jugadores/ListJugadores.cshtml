@@ -25,10 +25,12 @@
                 <td>@jugador.NumeroTelefono</td>
                 <td>@jugador.Numero</td>
                 <td>@jugador.Posicion</td>
-                <td>@jugador.Equipo</td>
-                <td><a class="btn btn-primary" asp-page="./DetailsJugadores" asp-route-id="@jugador.ID">Detalles</a></td>
+                <td>@jugador.Equipo.Nombre</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./DetailsJugadores" asp-route-id="@jugador.ID">Detalles</a>
+                    <a class="btn btn-primary" asp-page="./EditJugadores" asp-route-id="@jugador.ID">Editar</a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
-

@@ -12,8 +12,28 @@ namespace TorneoFutbol.App.Frontend.Pages.Municipios
 {
     public class EditMunicipiosModel : PageModel
     {
-        public void OnGet()
+        private readonly IRepositorioMunicipio _repoMunicipio;
+        public Municipio municipio { get; set; }
+        public EditMunicipiosModel(IRepositorioMunicipio repoMunicipio)
         {
+            _repoMunicipio = repoMunicipio;
+        }
+        public IActionResult OnGet(int id)
+        {
+            municipio = _repoMunicipio.GetMunicipio(id);
+            if (municipio == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Page();
+            }
+        }
+        public IActionResult OnPost(Municipio municipio)
+        {
+            _repoMunicipio.UpdateMunicipio(municipio);
+            return RedirectToPage("ListMunicipios");
         }
     }
 }

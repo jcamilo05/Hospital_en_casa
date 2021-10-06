@@ -264,3 +264,6 @@ C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App
 C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\EditMunicipios.cshtml.g.cs
 C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Dts\AddEquipo.cshtml.g.cs
 C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\AddEquipoJugador.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Equipos\AddDesempeno.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Equipos\AddMunicipio.cshtml.g.cs
+C:\Users\Oscar Regino\Desktop\Mision tic\Este si\TorneoDeFutbol\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\AddEstadio.cshtml.g.cs
