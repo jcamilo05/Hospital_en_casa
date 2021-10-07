@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JRYX5qCw+5r50l87dF+FtuMBfYObxpPP6z7KkNPthmtcKj92DLvSHmS6Z4+0qMq8+5OEaCLfTNXD+wD+rltsYg==",
+  "dgSpecHash": "zqt0rKkCMfZgroCYuvx5X8v2DAQEEozflAW8Yr0n1W6yvUyJUtdWjq1ed2+fgGp7LN7sBNh8n+gPXGsA/opmrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

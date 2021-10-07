@@ -1484,7 +1484,7 @@
       },
       "TorneoFutbol.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/TorneoFutbol.App.Dominio.dll": {}
         },
@@ -1494,7 +1494,7 @@
       },
       "TorneoFutbol.App.Persistencia/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
