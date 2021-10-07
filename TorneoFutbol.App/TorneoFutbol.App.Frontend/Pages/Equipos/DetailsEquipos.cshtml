@@ -10,7 +10,14 @@ h1>Detalles de los Equipos</h1>
     </tr>
     <tr>
         <th scope="col">Municipio</th>
-        <td>@Model.equipo.Municipio</td>
+        @if (Model.equipo.Municipio == null)
+        {
+            <td><a class="btn btn-primary" asp-page="./AddMunicipio" asp-route-id="@Model.equipo.ID">Asignar Municipio</a></td>
+        }
+        else
+        {
+            <td>@Model.equipo.Municipio.Nombre</td>
+        }
     </tr>
     <tr>
         <th scope="col">Desempeño</th>

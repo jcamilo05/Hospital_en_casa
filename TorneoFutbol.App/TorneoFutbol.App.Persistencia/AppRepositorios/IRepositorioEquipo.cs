@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TorneoFutbol.App.Dominio;
 
@@ -11,5 +12,6 @@ namespace TorneoFutbol.App.Persistencia
         void DeleteEquipo (int idEquipo);
         Equipo GetEquipo (int idEquipo);
         void AsignarJugador (int idEquipo, int idJugador);
+        Municipio LinkMunicipio(int idEquipo, int idMunicipio);
     }
 }

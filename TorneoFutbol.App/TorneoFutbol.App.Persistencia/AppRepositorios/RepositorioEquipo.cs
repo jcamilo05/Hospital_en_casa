@@ -69,6 +69,24 @@ namespace TorneoFutbol.App.Persistencia
             }
         } 
 
+        // Se añade el municipio al equipo 
+
+        Municipio IRepositorioEquipo.LinkMunicipio(int idEquipo, int idMunicipio)
+        {
+            var equipoEncontrado = _appContext.Equipos.FirstOrDefault(j => j.ID == idEquipo);
+            if (equipoEncontrado!=null)
+            {
+                var municipioEncontrado = _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
+                if (municipioEncontrado!=null)
+                {
+                    equipoEncontrado.Municipio = municipioEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return municipioEncontrado;
+            }
+            return null;
+        }
+
         
     }
 }

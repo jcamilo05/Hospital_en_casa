@@ -2,7 +2,7 @@
 @model TorneoFutbol.App.Frontend.Pages.Municipios.DetailsMunicipiosModel
 @{
 }
-<h1>Detalles de los arbitros</h1>
+<h1>Detalles de los Municipios</h1>
 <table class="table table-dark">
     <tr>
         <th scope="col">Nombre</th>
@@ -14,7 +14,14 @@
     </tr>
     <tr>
         <th scope="col">Estadio</th>
-        <td>@Model.municipio.Estadio</td>
+        @if (@Model.municipio.Estadio == null)
+        {
+            <td><a class="btn btn-primary" asp-page="./AddEstadio" asp-route-id="@Model.municipio.ID">Asignar Estadio</a></td>
+        }
+        else
+        {
+            <td>@Model.municipio.Estadio.Nombre</td>
+        }
     </tr>
 </table>
 <a class="btn btn-primary" asp-page="./ListMunicipios">Volver</a>
