@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AUALxXdxaKMws4wXcIadwrZtQjO6SlYmMmnxzW/mfZV/XcvXo5i2+h4xaJ/LhT/keaqGH3DTGHCOu5c5vMcXfA==",
+  "dgSpecHash": "JRYX5qCw+5r50l87dF+FtuMBfYObxpPP6z7KkNPthmtcKj92DLvSHmS6Z4+0qMq8+5OEaCLfTNXD+wD+rltsYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Oscar Regino\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Oscar Regino\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

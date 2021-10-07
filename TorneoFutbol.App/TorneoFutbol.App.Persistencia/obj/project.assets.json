@@ -7263,32 +7263,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Oscar Regino\\.nuget\\packages\\": {}
+    "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
       "projectName": "TorneoFutbol.App.Persistencia",
-      "projectPath": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Oscar Regino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Oscar Regino\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\EDISONDANIELARELLANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Oscar Regino\\Desktop\\Mision tic\\Este si\\TorneoDeFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+            "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
             }
           }
         }
@@ -7339,7 +7341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
