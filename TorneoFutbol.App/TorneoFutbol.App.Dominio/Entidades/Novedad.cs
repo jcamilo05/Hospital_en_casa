@@ -10,7 +10,7 @@ namespace TorneoFutbol.App.Dominio
     {
         // Tarjetas registradas en un partido
         public int ID{get;set;}
-        public string TipoNovedad { get; set;}
+        public TipoNovedad TipoNovedad { get; set;}
         public Jugador Jugador { get; set; }
         public Partido Partido { get; set;}
         public DateTime Time {get;set;}

@@ -34,3 +34,21 @@ D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\Tor
 D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
 D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
 D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.deps.json
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.json
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.dev.json
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache

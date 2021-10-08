@@ -28,13 +28,13 @@ namespace TorneoFutbol.App.Consola
             Console.WriteLine("Hola Torneo Departamental!");
 
          Console.WriteLine("Hola Torneo Departamental!");
-            AddArbitro();
+            //AddArbitro();
             //AddArbitro();
             //UpdateArbitro();
             //BuscarArbitro(1);
             //BuscarArbitro(2);
 
-            AddMunicipio();
+            //AddMunicipio();
             //AddMunicipio();
             //UpdateMunicipio();
             //BuscarMunicipio(1);
@@ -42,41 +42,41 @@ namespace TorneoFutbol.App.Consola
 
             //DeleteMunicipio(1);
 
-            AddJugador();
+            //AddJugador();
             //AddJugador();
             //UpdateJugador();
             //BuscarJugador(1);
 
-            AddDT();
+            //AddDT();
             //BuscarDT(2);
             //EliminarDT(9);
 
-            AddEstadio();
+            //AddEstadio();
             //AddEstadio();
             //UpdateEstadio();
             //BuscarEstadio(1);
             //BuscarEstadio(2);
             //DeleteEstadio(4);
 
-            AddEquipo();
+            //AddEquipo();
             //AddEquipo();
             //UpdateEquipo();
             //BuscarEquipo(1);
             //BuscarEquipo(2);
             //linkDT(2,2);
-            linkJugador(1,1);
+            //linkJugador(1,1);
             //linkJugador(2,2);
             //linkEstadio(1,2);
             //linkEstadio(2,1);
 
-            AddPartido();
+            //AddPartido();
             //BuscarPartido(2);
             //linkLocal(2,1);
-            linkVisitante(2,2);
+            //linkVisitante(2,2);
             //linkEstadioPartido(1,1);
             //linkArbitroPartido(1,1);
             
-            AddNovedad();
+            //AddNovedad();
             //BuscarNovedad(2);
             //LinkNovedadPartido(2,1);
             //LinkNovedadJugador(2,2);
@@ -176,7 +176,7 @@ namespace TorneoFutbol.App.Consola
                 Documento = "123321",
                 NumeroTelefono = "1231232",
                 Numero = "1",
-                Posicion = "Volante",
+                Posicion = Posicion.Portero,
             };
             _repoJugador.AddJugador(jugador);
         }
@@ -184,12 +184,12 @@ namespace TorneoFutbol.App.Consola
         {
             var jugador = new Jugador
             {
-                ID = 1,
+                //ID = 1,
                 Nombre  = "Leonel messi",
                 Documento = "123321",
                 NumeroTelefono = "1231232",
                 Numero = "11",
-                Posicion = "Delantero",
+                Posicion = Posicion.Centrocampista,
             };
             _repoJugador.UpdateJugador(jugador);
         }        
@@ -350,7 +350,7 @@ namespace TorneoFutbol.App.Consola
             DateTime localDate = DateTime.Now;
             var novedad = new Novedad
             {
-                TipoNovedad = "falta",
+                TipoNovedad = TipoNovedad.Gol,
                 Time = localDate,
                 //Jugador = Jugador,
                 //Partido = Partido,

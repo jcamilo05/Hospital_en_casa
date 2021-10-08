@@ -1,10 +1,12 @@
-namespace TorneoFutbol.App.Dominio.Entidades
+namespace TorneoFutbol.App.Dominio
 {
     public enum Posicion
     {
         Portero,
         Defensa,
         Centrocampista,
+        Volante,
         Delantero
+        
     }
 }
