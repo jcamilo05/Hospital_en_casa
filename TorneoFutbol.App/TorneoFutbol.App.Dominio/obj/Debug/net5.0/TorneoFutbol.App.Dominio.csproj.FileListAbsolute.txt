@@ -10,3 +10,15 @@ C:\Users\EDISONDANIELARELLANO\Desktop\MisionTic C3\Repo TorneoFutbol OS\TorneoFu
 C:\Users\EDISONDANIELARELLANO\Desktop\MisionTic C3\Repo TorneoFutbol OS\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.dll
 C:\Users\EDISONDANIELARELLANO\Desktop\MisionTic C3\Repo TorneoFutbol OS\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\ref\TorneoFutbol.App.Dominio.dll
 C:\Users\EDISONDANIELARELLANO\Desktop\MisionTic C3\Repo TorneoFutbol OS\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\TorneoFutbol.App.Dominio.deps.json
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\ref\TorneoFutbol.App.Dominio.dll
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.csproj.AssemblyReference.cache
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.AssemblyInfoInputs.cache
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.AssemblyInfo.cs
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\ref\TorneoFutbol.App.Dominio.dll
+D:\Desarrollo de software C3\Torneo Futbol\Repo AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.pdb

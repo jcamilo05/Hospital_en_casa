@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {}
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
         "projectName": "TorneoFutbol.App.Dominio",
-        "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+        "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDISONDANIELARELLANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,35 +56,33 @@
         }
       }
     },
-    "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
+        "projectUniqueName": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
         "projectName": "TorneoFutbol.App.Frontend",
-        "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\obj\\",
+        "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDISONDANIELARELLANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+              "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+                "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
               },
-              "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
+              "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
+                "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
               }
             }
           }
@@ -122,32 +118,30 @@
         }
       }
     },
-    "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
         "projectName": "TorneoFutbol.App.Persistencia",
-        "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
+        "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDISONDANIELARELLANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+              "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+                "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
               }
             }
           }

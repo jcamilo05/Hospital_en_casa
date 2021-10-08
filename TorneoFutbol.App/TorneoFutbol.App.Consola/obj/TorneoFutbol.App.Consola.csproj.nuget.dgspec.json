@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj": {}
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj": {}
   },
   "projects": {
-    "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj": {
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
+        "projectUniqueName": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
         "projectName": "TorneoFutbol.App.Consola",
-        "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\obj\\",
+        "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-                "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+              "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+                "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
               },
-              "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
-                "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
+              "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
+                "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
               }
             }
           }
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -62,12 +62,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.19, 3.1.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -77,27 +71,27 @@
         }
       }
     },
-    "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
         "projectName": "TorneoFutbol.App.Dominio",
-        "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+        "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -108,16 +102,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -128,34 +114,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
         "projectName": "TorneoFutbol.App.Persistencia",
-        "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
+        "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-                "projectPath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+              "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+                "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
               }
             }
           }
@@ -167,8 +158,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -202,7 +193,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },

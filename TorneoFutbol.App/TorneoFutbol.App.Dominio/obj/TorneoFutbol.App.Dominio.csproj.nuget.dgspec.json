@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {}
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+    "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
         "projectName": "TorneoFutbol.App.Dominio",
-        "projectPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\EDISONDANIELARELLANO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EDISONDANIELARELLANO\\Desktop\\MisionTic C3\\Repo TorneoFutbol OS\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+        "projectPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EDISONDANIELARELLANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
