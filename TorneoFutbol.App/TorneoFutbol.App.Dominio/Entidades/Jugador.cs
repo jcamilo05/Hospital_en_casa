@@ -29,8 +29,8 @@ namespace TorneoFutbol.App.Dominio
 
         [RegularExpression("^(\\d?[1-9]|[1-9]0)$", ErrorMessage="El campo {0} solo puede recibir números entre el 1 y el 99")]
         public string Numero { get; set; }
-
-        public string Posicion { get; set; }
+        //se Cambia posicion tipo String a Enum, para el frontend
+        public Posicion Posicion { get; set; }
         public Equipo Equipo { set; get; }
         //agregado novedades 
         public ICollection<Novedad> Novedades { get; set; }

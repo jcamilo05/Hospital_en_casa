@@ -6,12 +6,6 @@ namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioJugador : IRepositorioJugador
     {
-        /*private readonly AppContext _appContext;
-
-        public RepositorioJugador(AppContext appContext)
-        {
-            _appContext=appContext;
-        }*/
         private readonly AppContext _appContext = new AppContext();
 
         //Recibe un objeto tipo jugador, y lo agrega al appcontext
@@ -57,27 +51,6 @@ namespace TorneoFutbol.App.Persistencia
             }
             return jugadorEncontrado;
         }
-        //Asigna un equipo al objeto jugador
-        /*
-        Jugador IRepositorioJugador.LinkJugador(int idJugador, int idEquipo)
-        {
-            var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.ID == idEquipo);
-            if (equipoEncontrado!=null)
-            {
-                System.Console.WriteLine("se encontr� equipo con id "+idEquipo);
-                var jugadorEncontrado = _appContext.Jugadores.FirstOrDefault(j => j.ID == idJugador);
-                if (jugadorEncontrado!=null)
-                {
-                    System.Console.WriteLine("se encontr� Jugador con id "+idJugador);
-                    jugadorEncontrado.Equipo = equipoEncontrado;
-                    _appContext.SaveChanges();
-                    System.Console.WriteLine("se linkeo correctamente");
-                } 
-            }
-            return null;
-        }
-
-        */
         Equipo IRepositorioJugador.LinkJugador(int idJugador, int idEquipo)
         {
             var jugadorEncontrado = _appContext.Jugadores.FirstOrDefault(j => j.ID == idJugador);
