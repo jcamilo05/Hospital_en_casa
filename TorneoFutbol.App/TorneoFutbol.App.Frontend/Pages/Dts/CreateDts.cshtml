@@ -7,18 +7,21 @@
     <div class="form-group">
         <label asp-for="dt.Nombre"></label>
         <input asp-for="dt.Nombre" class="form-control">
+        <span asp-validation-for="dt.Nombre" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="dt.Documento"></label>
         <input asp-for="dt.Documento" class="form-control">
+        <span asp-validation-for="dt.Documento" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="dt.NumeroTelefono"></label>
         <input asp-for="dt.NumeroTelefono" class="form-control">
+        <span asp-validation-for="dt.NumeroTelefono" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="dt.Equipo"></label>
-        <input asp-for="dt.Equipo" class="form-control">
+        <input asp-for="dt.Equipo" class="form-control" readonly>
     </div>
     <button type="submit" class="btn btn-primary">Crear DT</button>
 </form>

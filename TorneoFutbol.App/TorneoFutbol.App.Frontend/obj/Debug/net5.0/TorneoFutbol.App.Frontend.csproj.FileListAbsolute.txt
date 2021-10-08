@@ -570,3 +570,4 @@ D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\Tor
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\ref\TorneoFutbol.App.Frontend.dll
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\TorneoFutbol.App.Frontend.pdb
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\TorneoFutbol.App.Frontend.genruntimeconfig.cache
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_AddFeatures\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Partido\Index.cshtml.g.cs

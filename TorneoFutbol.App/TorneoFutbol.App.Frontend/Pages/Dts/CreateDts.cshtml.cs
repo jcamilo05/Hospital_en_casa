@@ -24,8 +24,16 @@ namespace TorneoFutbol.App.Frontend.Pages.Dts
 
         public IActionResult OnPost(DT dt)
         {
-            _repoDT.AddDT(dt);
-            return RedirectToPage("ListDts");
+            
+            if (ModelState.IsValid)
+            {
+                _repoDT.AddDT(dt);
+                return RedirectToPage("ListDts");
+            }
+            else
+            {
+                return Page();
+            }            
         }    
     }
 }

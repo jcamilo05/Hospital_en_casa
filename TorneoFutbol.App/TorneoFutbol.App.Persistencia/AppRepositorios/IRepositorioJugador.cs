@@ -12,6 +12,7 @@ namespace TorneoFutbol.App.Persistencia
         Jugador GetJugador (int idJugador);
         //Jugador LinkJugador(int idJugador, int idEquipo);
         Equipo LinkJugador(int idJugador, int idEquipo);
+        
 
     }
 }

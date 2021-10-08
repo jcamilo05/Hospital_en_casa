@@ -11,7 +11,7 @@ namespace TorneoFutbol.App.Dominio
         public int ID { get; set; }
 
         [Required(ErrorMessage = "{0} es un campo obligatorio")]
-        [StringLength(50, MinimumLength = 10, 
+        [StringLength(50, MinimumLength = 2, 
         ErrorMessage="El campo {0} debe tener {1} caracteres de máximo y {2} de mínimo")]
         [RegularExpression("[a-zA-Z ]+", ErrorMessage="El campo {0} solo puede recibir letras")]
         public string Nombre{ get; set; } 
