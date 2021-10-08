@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sYhgUuzg7VY5wLqx82B8iJb1LC378Fka4naN9X3ahiyRB75/TSZsd5+rwetPf/RFlPfnnbIOXc+SrCWrhmABiQ==",
+  "dgSpecHash": "fHJyE6XlzNZO1dHAmkhWoMX0TWC+eEiryckWluwumPYWvJ68XWZ/CnWYSG9P1P3A+Ei8KkyJkITa3xit1L+qeA==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollo de software C3\\Torneo Futbol\\Repo AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
+  "projectFilePath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_AddFeatures\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dhani\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Dhani\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
