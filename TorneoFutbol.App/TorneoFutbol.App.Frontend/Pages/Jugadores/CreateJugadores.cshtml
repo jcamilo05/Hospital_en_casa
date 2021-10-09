@@ -32,8 +32,13 @@
         </select>
     </div>
     <div class="form-group">
-        <label asp-for="jugador.Equipo"></label>
-        <input asp-for="jugador.Equipo" class="form-control">
+        <label for="idEquipo">Equipo</label>
+            <select name="idEquipo" id="idEquipo" class="form-control">
+                @foreach (var equipo in Model.equipos)
+                {
+                    <option value="@equipo.ID">@equipo.Nombre</option>
+                }
+            </select>
     </div>
     <button type="submit" class="btn btn-primary">Crear Jugador</button>
 </form>

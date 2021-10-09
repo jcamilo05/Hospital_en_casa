@@ -13,7 +13,7 @@ namespace TorneoFutbol.App.Frontend.Pages.Partidos
     {
         private readonly IRepositorioEquipo _repoEquipo;
         private readonly IRepositorioEstadio _repoEstadio;
-        private readonly IRepositorioPartido _repoPartido;
+        //private readonly IRepositorioPartido _repoPartido;
         public Municipio municipio { get; set; }
         public IEnumerable<Equipo> equipos { get; set; }
         public IEnumerable<Estadio> estadios { get; set; }
