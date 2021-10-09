@@ -33,11 +33,11 @@ namespace TorneoFutbol.App.Persistencia
             var partidoEncontrado = _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
             if (partidoEncontrado != null)
             {
-                System.Console.WriteLine("se encontró partido con id " + idPartido);    
+                System.Console.WriteLine("se encontrï¿½ partido con id " + idPartido);    
                 var novedadEncontrada = _appContext.Novedades.FirstOrDefault(n => n.ID == idNovedad);
                 if (novedadEncontrada != null)
                 {
-                    System.Console.WriteLine("se encontró novedad con id " + novedadEncontrada);
+                    System.Console.WriteLine("se encontrï¿½ novedad con id " + novedadEncontrada);
                     novedadEncontrada.Partido = partidoEncontrado;
                     _appContext.SaveChanges();
                     //Experimental
@@ -53,16 +53,13 @@ namespace TorneoFutbol.App.Persistencia
             var jugadorEncontrado = _appContext.Jugadores.FirstOrDefault(p => p.ID == idJugador);
             if (jugadorEncontrado != null)
             {
-                System.Console.WriteLine("se encontró jugador con id " + idJugador);
                 var novedadEncontrada = _appContext.Novedades.FirstOrDefault(n => n.ID == idNovedad);
                 if (novedadEncontrada != null)
                 {
-                    System.Console.WriteLine("se encontró novedad con id " + novedadEncontrada);
                     novedadEncontrada.Jugador = jugadorEncontrado;
                     _appContext.SaveChanges();
                     //Experimental
                     //partidoEncontrado.Novedades.Add(novedadEncontrada);
-                    System.Console.WriteLine("se linkeo correctamente");
                 }
             }
             return null;

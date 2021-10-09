@@ -8,14 +8,14 @@ namespace TorneoFutbol.App.Persistencia
     public class RepositorioDT : IRepositorioDT
     {
         private readonly AppContext _appContext = new AppContext();
-        //Agregar Director Técnico
+        //Agregar Director Tï¿½cnico
         DT IRepositorioDT.AddDT(DT dt)
         {
             var dtAdicionado=_appContext.DTs.Add(dt);
             _appContext.SaveChanges();
             return dtAdicionado.Entity;
         }
-        //Eliminar Director Técnico
+        //Eliminar Director Tï¿½cnico
         void IRepositorioDT.DeleteDT(int idDT)
         {
             var dtEncontrado=_appContext.DTs.FirstOrDefault(p => p.ID==idDT);
@@ -24,7 +24,7 @@ namespace TorneoFutbol.App.Persistencia
             _appContext.DTs.Remove(dtEncontrado);
             _appContext.SaveChanges();
         }
-        //Devuelve un objeto Director técnico por id
+        //Devuelve un objeto Director tï¿½cnico por id
         DT IRepositorioDT.GetDT(int idDT)
         {
             return _appContext.DTs.FirstOrDefault(p => p.ID == idDT);
@@ -52,17 +52,15 @@ namespace TorneoFutbol.App.Persistencia
             }
             return dtEncontrado;
         }
-        //Asigna un equipo al objeto director técnico
+        //Asigna un equipo al objeto director tï¿½cnico
         DT IRepositorioDT.LinkDT(int idDT, int idEquipo)
         {
             var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.ID == idEquipo);
             if (equipoEncontrado!=null)
             {
-                //System.Console.WriteLine("se encontró equipo con id "+idEquipo);
                 var dtEncontrado = _appContext.DTs.FirstOrDefault(d => d.ID == idDT);
                 if (dtEncontrado!=null)
                 {
-                    //System.Console.WriteLine("se encontró DT con id "+idDT);
                     dtEncontrado.Equipo = equipoEncontrado;
                     _appContext.SaveChanges();
                 } 

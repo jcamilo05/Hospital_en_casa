@@ -47,12 +47,9 @@ namespace TorneoFutbol.App.Persistencia
                 estadioEncontrado.ID=estadio.ID;
                 estadioEncontrado.Nombre=estadio.Nombre;
                 estadioEncontrado.Direccion=estadio.Direccion;
-                
-
             _appContext.SaveChanges();
             }
             return estadioEncontrado;
-
         }
     }
 }

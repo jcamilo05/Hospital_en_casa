@@ -39,14 +39,11 @@ namespace TorneoFutbol.App.Persistencia
             var equipoEncontrado = _appContext.Equipos.FirstOrDefault(e => e.ID == idEquipo);
             if (equipoEncontrado != null)
             {
-                System.Console.WriteLine("se encontr� equipo con id "+idEquipo);
                 var partidoEncontrado = _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
                 if (partidoEncontrado != null)
                 {
-                    System.Console.WriteLine("se encontr� partido con id "+idPartido);
                     partidoEncontrado.EquipoLocal = equipoEncontrado;
                     _appContext.SaveChanges();
-                    System.Console.WriteLine("se linkeo correctamente");
                 }
             }
             return null;
@@ -58,14 +55,11 @@ namespace TorneoFutbol.App.Persistencia
             var equipoEncontrado = _appContext.Equipos.FirstOrDefault(e => e.ID == idEquipo);
             if (equipoEncontrado != null)
             {
-                System.Console.WriteLine("se encontr� equipo con id "+idEquipo);
                 var partidoEncontrado = _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
                 if (partidoEncontrado != null)
                 {
-                    System.Console.WriteLine("se encontr� partido con id "+idPartido);
                     partidoEncontrado.EquipoVisitante = equipoEncontrado;
                     _appContext.SaveChanges();
-                    System.Console.WriteLine("se linkeo correctamente");
                 }
             }
             return null;
@@ -76,17 +70,13 @@ namespace TorneoFutbol.App.Persistencia
             var estadioEncontrado = _appContext.Estadios.FirstOrDefault(e => e.ID == idEstadio);
             if (estadioEncontrado != null)
             {
-                System.Console.WriteLine("se encontr� estadio con id " + idEstadio);
                 var partidoEncontrado = _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
                 if (partidoEncontrado != null)
                 {
-                    System.Console.WriteLine("se encontr� partido con id " + idPartido);
                     partidoEncontrado.Estadio = estadioEncontrado;
                     _appContext.SaveChanges();
-                    System.Console.WriteLine("se linkeo correctamente");
                 }
             }
-            //System.Console.WriteLine("saliendo de link estadio");
             return null;
         }
         //recibe como parametros el id del partido y el id del arbitro a asignar 
@@ -95,17 +85,13 @@ namespace TorneoFutbol.App.Persistencia
             var arbitroEncontrado = _appContext.Arbitros.FirstOrDefault(a => a.ID == idArbitro);
             if (arbitroEncontrado != null)
             {
-                System.Console.WriteLine("se encontr� arbitro con id " + idArbitro);
                 var partidoEncontrado = _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
                 if (partidoEncontrado != null)
                 {
-                    System.Console.WriteLine("se encontr� partido con id " + idPartido);
                     partidoEncontrado.Arbitro = arbitroEncontrado;
                     _appContext.SaveChanges();
-                    System.Console.WriteLine("se linkeo correctamente");
                 }
             }
-            //System.Console.WriteLine("saliendo de link estadio");
             return null;
         }
     }

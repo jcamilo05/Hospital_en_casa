@@ -45,8 +45,7 @@ namespace TorneoFutbol.App.Persistencia
                 desempenoEncontrado.GolesAFavor=desempeno.GolesAFavor;
                 desempenoEncontrado.GolesEnContra=desempeno.GolesEnContra;
                 desempenoEncontrado.Puntos=desempeno.Puntos;
-
-            _appContext.SaveChanges();
+                _appContext.SaveChanges();
             }
             return desempenoEncontrado;
 

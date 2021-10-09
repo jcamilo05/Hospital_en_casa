@@ -45,11 +45,9 @@ namespace TorneoFutbol.App.Persistencia
                 arbitroEncontrado.Documento=arbitro.Documento;
                 arbitroEncontrado.NumeroTelefono=arbitro.NumeroTelefono;
                 arbitroEncontrado.Colegio=arbitro.Colegio;
-
-            _appContext.SaveChanges();
+            _   appContext.SaveChanges();
             }
             return arbitroEncontrado;
-
         }
     }
 }

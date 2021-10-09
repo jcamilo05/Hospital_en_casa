@@ -59,17 +59,13 @@ namespace TorneoFutbol.App.Persistencia
             var estadioEncontrado = _appContext.Estadios.FirstOrDefault(e => e.ID == idEstadio);
             if (estadioEncontrado!=null)
             {
-                System.Console.WriteLine("se encontró estadio con id "+idEstadio);
                 var municipioEncontrado = _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
                 if (municipioEncontrado!=null)
                 {
-                    System.Console.WriteLine("se encontró municipio con id "+idMunicipio);
                     municipioEncontrado.Estadio = estadioEncontrado;
                     _appContext.SaveChanges();
-                    System.Console.WriteLine("se linkeo correctamente");
                 }     
             } 
-            //System.Console.WriteLine("saliendo de link estadio");
             return null;
         }
     }
