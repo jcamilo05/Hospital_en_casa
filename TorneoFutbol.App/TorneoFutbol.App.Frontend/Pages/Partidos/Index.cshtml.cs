@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using TorneoFutbol.App.Persistencia;
 using TorneoFutbol.App.Dominio;
 
-namespace TorneoFutbol.App.Frontend.Pages.Partido
+namespace TorneoFutbol.App.Frontend.Pages.Partidos
 {
     public class IndexModel : PageModel
     {
@@ -18,8 +18,6 @@ namespace TorneoFutbol.App.Frontend.Pages.Partido
         public IEnumerable<Equipo> equipos { get; set; }
         public IEnumerable<Estadio> estadios { get; set; }
 
-        [BindProperty]
-        public string Label { get; set; }
         public IndexModel(IRepositorioEquipo repoEquipo, IRepositorioEstadio repoEstadio)
         {
             

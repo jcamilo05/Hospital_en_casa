@@ -1,0 +1,48 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Partidos.CreatePartidosModel
+@{
+}
+<h1>Nuevo Partido</h1>
+<form method="post">
+    <div class="form-group">
+        <!--<label asp-for="partido.EquipoLocal"></label>-->
+        <div class="form-group">
+        <label for="idEquipoL">Local</label>
+        <select name="idEquipoL" id="idEquipoL" class="form-control">
+            @foreach (var equipo in Model.equipos)
+            {
+               <option value="@equipo.ID">@equipo.Nombre</option>
+            }
+        </select>
+        </div>
+        <!--<input asp-for="partido.EquipoLocal" class="form-control">-->
+    </div>
+    <div class="form-group">
+        <div class="form-group">
+        <label for="idEquipoV">Visitante</label>
+        <select name="idEquipoV" id="idEquipoV" class="form-control">
+            @foreach (var equipo in Model.equipos)
+            {
+               <option value="@equipo.ID">@equipo.Nombre</option>
+            }
+        </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="partido.FechaHora"></label>
+        <input asp-for="partido.FechaHora" class="form-control">
+    </div>
+    <div class="form-group">
+        <div class="form-group">
+        <label for="idEquipo">Estadio</label>
+        <select name="idEstadio" id="idEstadio" class="form-control">
+            @foreach (var estadio in Model.estadios)
+            {
+               <option value="@estadio.ID">@estadio.Nombre</option>
+            }
+        </select>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Partido</button>
+</form>
+<a class="btn btn-secondary" asp-page="./ListPartidos">Volver</a>

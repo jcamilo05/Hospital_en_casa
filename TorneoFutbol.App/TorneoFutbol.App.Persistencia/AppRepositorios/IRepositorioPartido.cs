@@ -10,6 +10,7 @@ namespace TorneoFutbol.App.Persistencia
 
         Partido GetPartido(int idPartido);
         IEnumerable<Partido> GetAllPartido();
+        IEnumerable<Partido> GetTblPartido();
         Partido LinkLocal(int idPartido, int idEquipo);
         Partido LinkVisitante(int idPartido, int idEquipo);
         Partido LinkEstadioPartido(int idPartido, int idEstadio);

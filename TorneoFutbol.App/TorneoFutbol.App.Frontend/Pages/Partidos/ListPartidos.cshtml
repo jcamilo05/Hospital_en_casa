@@ -1,0 +1,31 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Partidos.ListPartidosModel
+@{
+}
+<h1>Lista de Partidos</h1>
+<a class="btn btn-primary" asp-page="./CreatePartidos">Crear</a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Local</th>
+            <th scope="col">Invitado</th>
+            <th scope="col">Marcador</th>
+            <th scope="col">Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var partido in Model.partidos)
+        {
+            <tr>
+                <th>@partido.EquipoLocal</th>
+                <td>@partido.EquipoVisitante</td>
+                <td><p>@partido.MarcadorInicialVisitante - @partido.MarcadorInicialLocal</p></td>
+                <td>@partido.FechaHora</td>
+                <td>
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
