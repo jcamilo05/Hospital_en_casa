@@ -20,8 +20,15 @@
         <span asp-validation-for="dt.NumeroTelefono" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="dt.Equipo"></label>
-        <input asp-for="dt.Equipo" class="form-control" readonly>
+        <!--<label asp-for="dt.Equipo"></label>-->
+        <!--<input asp-for="dt.Equipo" class="form-control" readonly>-->
+        <label for="idEquipo">Equipo</label>
+        <select name="idEquipo" id="idEquipo" class="form-control">
+            @foreach (var equipo in Model.equipos)
+            {
+                <option value="@equipo.ID">@equipo.Nombre</option>
+            }
+        </select>
     </div>
     <button type="submit" class="btn btn-primary">Crear DT</button>
 </form>

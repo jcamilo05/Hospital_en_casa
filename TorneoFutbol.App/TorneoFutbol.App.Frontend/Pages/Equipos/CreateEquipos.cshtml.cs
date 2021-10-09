@@ -11,19 +11,24 @@ namespace TorneoFutbol.App.Frontend.Pages.Equipos
 {
     public class CreateEquiposModel : PageModel
     {
+        private readonly IRepositorioMunicipio _repoMunicipio;
+        public IEnumerable <Municipio> municipios {get;set;}
         private readonly IRepositorioEquipo _repoEquipo;
         public Equipo equipo { get; set; }
-        public CreateEquiposModel(IRepositorioEquipo repoEquipo)
+        public CreateEquiposModel(IRepositorioEquipo repoEquipo, IRepositorioMunicipio repoMunicipio)
         {
+            _repoMunicipio = repoMunicipio;
             _repoEquipo = repoEquipo;
         }
         public void OnGet()
         {
+            municipios=_repoMunicipio.GetAllMunicipio();
             equipo = new Equipo();
         }
-        public IActionResult OnPost(Equipo equipo)
+        public IActionResult OnPost(Equipo equipo, int idMunicipio)
         {
             _repoEquipo.AddEquipo(equipo);
+            _repoEquipo.LinkMunicipio(equipo.ID, idMunicipio);
             return RedirectToPage("ListEquipos");
         }
     }
