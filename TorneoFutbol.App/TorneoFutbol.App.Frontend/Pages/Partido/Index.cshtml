@@ -1,6 +1,7 @@
 ﻿@page
 @model TorneoFutbol.App.Frontend.Pages.Partido.IndexModel
 @{
+
 <div class="container p-3 my-3 bg-dark text-white">
   <div class="row">
     <div class="col">
@@ -15,14 +16,47 @@
   </div>
   <div class="row">
     <div class="col">
-      <p style="text-align:center;">Name</p>  
+      <div class="form-group">
+      <select name="idEquipoV" id="idEquipoV" class="form-control" style="text-align:center;">
+            @foreach (var equipo in Model.equipos)
+            {
+               <option value="@equipo.ID">@equipo.Nombre</option>
+            }
+        </select>
+       <!-- <select name="equipoID" asp-items="Model.equipos"></select> -->
+       </div>
     </div>
     <div class="col">
       <p style="text-align:center;">0-0</p>  
     </div>
     <div class="col">
-      <p style="text-align:center;">Name</p>  
+      <div class="form-group">
+      <select name="idEquipoL" id="idEquipoL" class="form-control" style="text-align:center;">
+            @foreach (var equipo in Model.equipos)
+            {
+               <option value="@equipo.ID">@equipo.Nombre</option>
+            }
+      </select> 
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p>some text</p>
+    </div>
+    <div class="col mb-2 bg-success text-white">
+      <p style="text-align:center;">Arbitro</p>
+    </div>
+    <div class="col" style="text-align:center;">
+      <button type="submit" class="btn btn-primary">Crear Partido</button>
+    </div>
+    <div class="col mb-2 bg-success text-white">
+      <p style="text-align:center;">Estadio</p>
+    </div>
+    <div class="col">
+      <p>some text</p>
     </div>
   </div>
 </div>
+
 }
