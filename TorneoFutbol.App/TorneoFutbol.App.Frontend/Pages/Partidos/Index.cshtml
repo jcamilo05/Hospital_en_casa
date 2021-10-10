@@ -2,61 +2,49 @@
 @model TorneoFutbol.App.Frontend.Pages.Partidos.IndexModel
 @{
 
-<div class="container p-3 my-3 bg-dark text-white">
-  <div class="row">
-    <div class="col">
-      <p style="text-align:center;">Equipo Local</p>
+  <div class="container p-3 my-3 bg-dark text-white">
+    <div class="row">
+      <div class="col">
+        <p style="text-align:center;"><b>Local</b></p>
+      </div>
+      <div class="col mb-2 bg-success text-white">
+        <p style="text-align:center;"><b>Marcador</b></p>
+      </div>
+      <div class="col">
+        <p style="text-align:center;"><b>Visitante</b></p>
+      </div>
     </div>
-    <div class="col mb-2 bg-success text-white">
-      <p style="text-align:center;">Marcador</p>      
+    <div class="row">
+      <div class="col">
+        <div>
+          <p style="text-align:center;">@Model.partido.EquipoVisitante.Nombre</p>
+        </div>
+      </div>
+      <div class="col">
+        <p style="text-align:center;">@Model.partido.MarcadorInicialVisitante - @Model.partido.MarcadorInicialLocal</p>
+      </div>
+      <div class="col">
+        <div>
+          <p style="text-align:center;">@Model.partido.EquipoLocal.Nombre</p>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <p style="text-align:center;">Equipo Visitante</p>      
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <div class="form-group">
-      <select name="idEquipoV" id="idEquipoV" class="form-control" style="text-align:center;">
-            @foreach (var equipo in Model.equipos)
-            {
-               <option value="@equipo.ID">@equipo.Nombre</option>
-            }
-        </select>
-       <!-- <select name="equipoID" asp-items="Model.equipos"></select> -->
-       </div>
-    </div>
-    <div class="col">
-      <p style="text-align:center;">0-0</p>  
-    </div>
-    <div class="col">
-      <div class="form-group">
-      <select name="idEquipoL" id="idEquipoL" class="form-control" style="text-align:center;">
-            @foreach (var equipo in Model.equipos)
-            {
-               <option value="@equipo.ID">@equipo.Nombre</option>
-            }
-      </select> 
+    <div class="row">
+      <div class="col">
+        <p style="text-align:center;">@Model.partido.Arbitro.Nombre</p>
+      </div>
+      <div class="col mb-2 bg-success text-white">
+        <p style="text-align:center;"><b>Arbitro</b></p>
+      </div>
+      <div class="col" style="text-align:center;">
+        <button type="submit" class="btn btn-primary">Agregar Novedad</button>
+      </div>
+      <div class="col mb-2 bg-success text-white">
+        <p style="text-align:center;"><b>Estadio</b></p>
+      </div>
+      <div class="col">
+        <p style="text-align:center;">@Model.partido.Estadio.Nombre</p>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      <p>some text</p>
-    </div>
-    <div class="col mb-2 bg-success text-white">
-      <p style="text-align:center;">Arbitro</p>
-    </div>
-    <div class="col" style="text-align:center;">
-      <button type="submit" class="btn btn-primary">Agregar Novedad</button>
-    </div>
-    <div class="col mb-2 bg-success text-white">
-      <p style="text-align:center;">Estadio</p>
-    </div>
-    <div class="col">
-      <p>some text</p>
-    </div>
-  </div>
-</div>
-
 }

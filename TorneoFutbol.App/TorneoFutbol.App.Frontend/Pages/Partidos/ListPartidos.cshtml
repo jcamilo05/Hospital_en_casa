@@ -7,10 +7,12 @@
 <table class="table">
     <thead class="thead-dark">
         <tr>
+            <th scope="col">Id</th>
             <th scope="col">Local</th>
             <th scope="col">Invitado</th>
             <th scope="col">Marcador</th>
             <th scope="col">Fecha</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -18,11 +20,21 @@
         @foreach (var partido in Model.partidos)
         {
             <tr>
-                <th>@partido.EquipoLocal</th>
+                <th>@partido.ID</th>
+                <td>@partido.EquipoLocal</td>
                 <td>@partido.EquipoVisitante</td>
                 <td><p>@partido.MarcadorInicialVisitante - @partido.MarcadorInicialLocal</p></td>
                 <td>@partido.FechaHora</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./Index" asp-route-id="@partido.ID">Iniciar</a>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@partido.ID">Consultar</a>
+                    <!-- <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@partido.ID">Eliminar</a>-->
+                </td>
             </tr>
         }
+        
     </tbody>
+    <td style="text-align:center">
+                <a class="btn btn-primary" asp-page="./CreatePartidos">Registrar Nuevo</a>
+    </td>
 </table>

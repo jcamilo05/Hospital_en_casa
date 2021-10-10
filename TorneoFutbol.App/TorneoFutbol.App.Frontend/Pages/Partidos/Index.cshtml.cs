@@ -13,32 +13,39 @@ namespace TorneoFutbol.App.Frontend.Pages.Partidos
     {
         private readonly IRepositorioEquipo _repoEquipo;
         private readonly IRepositorioEstadio _repoEstadio;
-        //private readonly IRepositorioPartido _repoPartido;
+        private readonly IRepositorioPartido _repoPartido;
         public Municipio municipio { get; set; }
+        public Partido partido {get; set;}
         public IEnumerable<Equipo> equipos { get; set; }
         public IEnumerable<Estadio> estadios { get; set; }
 
-        public IndexModel(IRepositorioEquipo repoEquipo, IRepositorioEstadio repoEstadio)
+        public IndexModel(IRepositorioEquipo repoEquipo, IRepositorioEstadio repoEstadio, IRepositorioPartido repoPartido)
         {
-            
+            _repoPartido = repoPartido;
             _repoEquipo = repoEquipo;
             _repoEstadio = repoEstadio;
-        }
-        
-        
-        public void OnGet(int id)
+        } 
+        public IActionResult OnGet(int id)
         {
-            //municipio = _repoMunicipio.GetMunicipio(id);
             equipos = _repoEquipo.GetAllEquipo();
-            estadios = _repoEstadio.GetAllEstadio();
-            /**
-            if (id == Guid.Empty) {
-                Label = "Create"; 
-            } else {
-                Label = "Update";
+            estadios = _repoEstadio.GetAllEstadio();   
+            partido = _repoPartido.GetPartido(id);
+            //municipio = _repoMunicipio.GetMunicipio(id);
+            if (partido == null)
+            {
+                return NotFound();
             }
-            */
+            else
+            {
+                return Page();
+            }
         }
-        
+        public IActionResult OnPost(Partido partido)
+        {
+            //_repoMunicipio.UpdateMunicipio(municipio);
+            //return RedirectToPage("ListMunicipios");
+            //return Pages();
+            return RedirectToPage("ListPartidos");
+        }
     }
 }
