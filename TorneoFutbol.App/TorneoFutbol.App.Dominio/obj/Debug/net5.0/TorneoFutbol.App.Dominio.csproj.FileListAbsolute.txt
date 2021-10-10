@@ -46,3 +46,15 @@ E:\programacion\repoTorneo\addFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio
 E:\programacion\repoTorneo\addFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.dll
 E:\programacion\repoTorneo\addFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\ref\TorneoFutbol.App.Dominio.dll
 E:\programacion\repoTorneo\addFeatures\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\TorneoFutbol.App.Dominio.deps.json
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\ref\TorneoFutbol.App.Dominio.dll
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.AssemblyInfo.cs
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\ref\TorneoFutbol.App.Dominio.dll
+C:\Users\Tatiana\Documents\ProyectoTorneo\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
