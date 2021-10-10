@@ -27,7 +27,7 @@ namespace TorneoFutbol.App.Dominio
         [Display(Name = "Teléfono")]
         public string NumeroTelefono{ get; set; } 
 
-        [StringLength(50, MinimumLength = 10, 
+        [StringLength(50, MinimumLength = 4, 
         ErrorMessage="El campo {0} debe tener {1} caracteres de máximo y {2} de mínimo")]
         public string Colegio { get; set; }    
 

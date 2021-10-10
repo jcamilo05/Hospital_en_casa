@@ -24,6 +24,10 @@
         <input asp-for="arbitro.Colegio" class="form-control">
         <span asp-validation-for="arbitro.Colegio" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Crear Arbitro</button>
+    <div class="row">
+        <div class="col">
+            <a class="btn btn-secondary" asp-page="./List">Volver</a>
+            <button type="submit" class="btn btn-primary">Crear Arbitro</button>
+        </div>
+    </div>
 </form>
-<a class="btn btn-secondary" asp-page="./List">Volver</a>
