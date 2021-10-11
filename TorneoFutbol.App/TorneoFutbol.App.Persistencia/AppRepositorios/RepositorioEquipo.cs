@@ -81,6 +81,7 @@ namespace TorneoFutbol.App.Persistencia
                 {
                     equipoEncontrado.Municipio = municipioEncontrado;
                     _appContext.SaveChanges();
+                    System.Console.WriteLine("ok");
                 }
                 return municipioEncontrado;
             }

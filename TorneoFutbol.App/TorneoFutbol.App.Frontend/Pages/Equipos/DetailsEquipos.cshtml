@@ -2,7 +2,7 @@
 @model TorneoFutbol.App.Frontend.Pages.Equipos.DetailsEquiposModel
 @{
 }
-h1>Detalles de los Equipos</h1>
+<h1>Detalles de los Equipos</h1>
 <table class="table table-dark">
     <tr>
         <th scope="col">Nombre</th>
@@ -21,7 +21,8 @@ h1>Detalles de los Equipos</h1>
     </tr>
     <tr>
         <th scope="col">Desempeño</th>
-        <td>@Model.equipo.Desempeno</td>
+        <!--<td>@Model.equipo.Desempeno</td>-->
+        <td><a class="btn btn-primary" asp-page="./" asp-route-id="@Model.equipo.ID">Consultar</a></td>
     </tr>
 </table>
 <a class="btn btn-primary" asp-page="./ListEquipos">Volver</a>
