@@ -22,6 +22,7 @@ namespace TorneoFutbol.App.Persistencia
                 //optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=TorneoFutbol");
                 //linea de conexion a db remota
                 optionsBuilder.UseSqlServer("Data Source=SQL5104.site4now.net;Initial Catalog=db_a7adac_torneofutbol;User Id=db_a7adac_torneofutbol_admin;Password=MisionTic4");
+                //optionsBuilder.UseSqlServer("Data Source=SQL5104.site4now.net,1433;Initial Catalog=db_a7aef6_torneofutbol;User Id=db_a7aef6_torneofutbol_admin;Password=lalala123;");
             }
  
         }

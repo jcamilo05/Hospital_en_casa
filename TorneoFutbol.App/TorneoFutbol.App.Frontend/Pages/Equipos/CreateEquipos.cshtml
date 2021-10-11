@@ -13,6 +13,7 @@
         <!--<input asp-for="equipo.Municipio" class="form-control">-->
         <label for="idMunicipio">Municipio</label>
         <select name="idMunicipio" id="idMunicipio" class="form-control">
+            <option value=""> </option>
             @foreach (var municipio in Model.municipios)
             {
                 <option value="@municipio.ID">@municipio.Nombre</option>
