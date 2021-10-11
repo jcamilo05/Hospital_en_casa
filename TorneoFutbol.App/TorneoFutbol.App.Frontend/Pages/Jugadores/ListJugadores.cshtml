@@ -3,8 +3,7 @@
 @{
 }
 <h1>Lista de Jugadores</h1>
-<a class="btn btn-primary" asp-page="./CreateJugadores">Crear</a>
-<table class="table">
+<table class="table" style="text-align: center;">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Nombre</th>
@@ -28,9 +27,15 @@
                 <td>@jugador.Equipo</td>
                 <td>
                     <a class="btn btn-primary" asp-page="./DetailsJugadores" asp-route-id="@jugador.ID">Detalles</a>
-                    <a class="btn btn-primary" asp-page="./EditJugadores" asp-route-id="@jugador.ID">Editar</a>
+                    <a class="btn btn-secondary" asp-page="./EditJugadores" asp-route-id="@jugador.ID">Editar</a>
+                    <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@jugador.ID">Eliminar</a>
                 </td>
             </tr>
         }
+        <tr>
+            <td>
+                <a class="btn btn-primary" asp-page="./CreateJugadores">Registrar Jugador</a>
+            </td>
+        </tr>
     </tbody>
 </table>
