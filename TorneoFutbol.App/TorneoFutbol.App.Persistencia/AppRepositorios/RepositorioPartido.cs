@@ -41,6 +41,13 @@ namespace TorneoFutbol.App.Persistencia
             .Include(p => p.EquipoLocal)
             .Include(p => p.EquipoVisitante);
         }
+        IEnumerable<Partido> IRepositorioPartido.GetPartidoEntre(string local, string visitante)
+        {
+            return _appContext.Partidos
+            .Where(p => p.EquipoLocal.Nombre.Contains(local) && p.EquipoVisitante.Nombre.Contains(visitante))
+            .Include(p => p.Estadio);
+            //.Include(p => p.EquipoVisitante);
+        }
 
         IEnumerable<Partido> IRepositorioPartido.GetTblPartido()
         {

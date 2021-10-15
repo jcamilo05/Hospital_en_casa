@@ -16,25 +16,38 @@
         </tr>
     </thead>
     <tbody>
-        
+
         @foreach (var partido in Model.partidos)
         {
             <tr>
                 <th>@partido.ID</th>
                 <td>@partido.EquipoLocal.Nombre</td>
                 <td>@partido.EquipoVisitante.Nombre</td>
-                <td><p style="text-align : center">@partido.MarcadorInicialVisitante - @partido.MarcadorInicialLocal</p></td>
+                <td>
+                    <p style="text-align : center">@partido.MarcadorInicialVisitante - @partido.MarcadorInicialLocal</p>
+                </td>
                 <td>@partido.FechaHora</td>
                 <td>
                     <a class="btn btn-primary" asp-page="./Index" asp-route-id="@partido.ID">Iniciar</a>
                     <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@partido.ID">Consultar</a>
                     <!-- <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@partido.ID">Eliminar</a>-->
-                </td>
+            </td>
             </tr>
         }
-        
+
     </tbody>
     <td style="text-align:center">
-                <a class="btn btn-primary" asp-page="./CreatePartidos">Registrar Nuevo</a>
+        <a class="btn btn-primary" asp-page="./CreatePartidos">Registrar Nuevo</a>
     </td>
+    <form method="get">
+        <div class="form-group">
+            <label for="a">Equipo Local</label>
+            <input name="a" id="a" asp-for="@Model.aActual" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="b">Equipo Visitante</label>
+            <input name="b" id="b" asp-for="@Model.bActual" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </form>
 </table>
