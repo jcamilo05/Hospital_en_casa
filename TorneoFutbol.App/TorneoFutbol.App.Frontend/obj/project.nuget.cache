@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "CqeAKqxpuboyRo+KFNKag3WscpmbKfTjskTrhW2qAtXpAtCiLeZrbgo3HEX0LOofxKoeXjk/I9dmbA0IldWvew==",
+  "dgSpecHash": "f9DqAVYjJtt5YLGv4xljotmH6TokGRyLSf7ZrmdL6TeCxR+MdSQ4Fc/xGhTQSndQfW0OJ5Ql5l+EKzPLaZLXaw==",
   "success": true,
-  "projectFilePath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
-=======
-  "dgSpecHash": "qyu+dzSTgjY6lAF6M+6J1vwvSds0dHx5b/X1464285XMB3+OK0sgwFHpen07r9iYshktYySewtet4M80IAhQHg==",
-  "success": true,
-  "projectFilePath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
->>>>>>> 730f181f856dd003acc7e1cf09b080ef8e6c9b71
+  "projectFilePath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dhani\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.10\\microsoft.aspnetcore.mvc.razor.extensions.5.0.10.nupkg.sha512",
     "C:\\Users\\Dhani\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.10\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.10.nupkg.sha512",

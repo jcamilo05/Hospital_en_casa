@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "0rr42fV2nze0cA4VDTDHkUmDcziedowld6cE0AhQ9ezZ99dUbdZ6HNlnA7Axjkz5+BmrpvHNzXEDbpbZxreZ4Q==",
+  "dgSpecHash": "bPenwPYPHblR2dtsyihXLLjlw0lI53MYEVebSsB7hZ5UNKhMSl/srRpy9Zh+327eoYPxjlsFsFFnYRToFbV8rA==",
   "success": true,
-  "projectFilePath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
-=======
-  "dgSpecHash": "1P12JXjcRQYpCj5F61/K1PtTyXJY+rhYxA5fq2Dvw3IJ/UiP/pA5S2ZWuwS0j5vGzALd9cpPs4tIR85nekt+6g==",
-  "success": true,
-  "projectFilePath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
->>>>>>> 730f181f856dd003acc7e1cf09b080ef8e6c9b71
+  "projectFilePath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dhani\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dhani\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

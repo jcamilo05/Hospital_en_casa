@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "KYI4ccUFjGvDQYG+wPjwy/7D07PWCEovc4nuXWQEFlbhutH1i2AD3lvWAAdirDzim6ulf7R7BIfFzB/bDyCdTw==",
-=======
-  "dgSpecHash": "c5NHBHRjNM4Z7V9lPWNQAxDtuhxw2SKdQPlQYkudMi0P8tBDyQmTraHxc5vjSkuwska52vuyNx8MJj1VCpQ92w==",
->>>>>>> 730f181f856dd003acc7e1cf09b080ef8e6c9b71
   "success": true,
   "projectFilePath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Consola\\TorneoFutbol.App.Consola.csproj",
   "expectedPackageFiles": [
