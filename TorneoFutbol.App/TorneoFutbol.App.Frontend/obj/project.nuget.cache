@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f9DqAVYjJtt5YLGv4xljotmH6TokGRyLSf7ZrmdL6TeCxR+MdSQ4Fc/xGhTQSndQfW0OJ5Ql5l+EKzPLaZLXaw==",
+  "dgSpecHash": "OHUKcZOJCSzL6FYgwOzvZEs25U1KkC7iFy7ihWfyDDklxY4xMUYFceG9HmOVKs2jpUsXGjY9xUfoGAaJBB3vgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
+  "projectFilePath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dhani\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.10\\microsoft.aspnetcore.mvc.razor.extensions.5.0.10.nupkg.sha512",
     "C:\\Users\\Dhani\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.10\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.10.nupkg.sha512",

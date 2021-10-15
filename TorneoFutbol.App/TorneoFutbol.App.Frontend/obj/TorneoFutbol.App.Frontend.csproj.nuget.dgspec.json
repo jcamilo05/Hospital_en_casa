@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {}
+    "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+    "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
         "projectName": "TorneoFutbol.App.Dominio",
-        "projectPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "projectPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+        "outputPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {
+    "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
+        "projectUniqueName": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
         "projectName": "TorneoFutbol.App.Frontend",
-        "projectPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
+        "projectPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\TorneoFutbol.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\obj\\",
+        "outputPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,11 +84,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+              "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+                "projectPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
               },
-              "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
+              "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
+                "projectPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
+    "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
         "projectName": "TorneoFutbol.App.Persistencia",
-        "projectPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+        "projectPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
+        "outputPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -152,8 +152,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Dhani\\Desktop\\branch camilo\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+              "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+                "projectPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\DevDhani\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
               }
             }
           }
