@@ -28,8 +28,7 @@ namespace TorneoFutbol.App.Persistencia
                     //.Include(p => p.MarcadorInicialVisitante)
                     //.Include(p => p.MarcadorInicialLocal)
                     .Include(p => p.Estadio)
-                    .Include(p => p.Arbitro)
-                    .Include(p => p.Novedades)
+                    //.Include(p => p.Arbitro)
                     .FirstOrDefault();
             return partido;
             //return _appContext.Partidos.Find(idPartido);
@@ -38,7 +37,9 @@ namespace TorneoFutbol.App.Persistencia
         //al invocarse devuelve todos los partidos que se encuentran en el context
         IEnumerable<Partido> IRepositorioPartido.GetAllPartido()
         {
-            return _appContext.Partidos;
+            return _appContext.Partidos
+            .Include(p => p.EquipoLocal)
+            .Include(p => p.EquipoVisitante);
         }
 
         IEnumerable<Partido> IRepositorioPartido.GetTblPartido()
@@ -51,11 +52,11 @@ namespace TorneoFutbol.App.Persistencia
         Partido IRepositorioPartido.LinkLocal(int idPartido, int idEquipo)
         {
             var equipoEncontrado =
-                _appContext.Equipos.FirstOrDefault(e => e.ID == idEquipo);
+                _appContext.Equipos.Find(idEquipo);
             if (equipoEncontrado != null)
             {
                 var partidoEncontrado =
-                    _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
+                    _appContext.Partidos.Find(idPartido);
                 if (partidoEncontrado != null)
                 {
                     partidoEncontrado.EquipoLocal = equipoEncontrado;
@@ -70,11 +71,11 @@ namespace TorneoFutbol.App.Persistencia
         Partido IRepositorioPartido.LinkVisitante(int idPartido, int idEquipo)
         {
             var equipoEncontrado =
-                _appContext.Equipos.FirstOrDefault(e => e.ID == idEquipo);
+                _appContext.Equipos.Find(idEquipo);
             if (equipoEncontrado != null)
             {
                 var partidoEncontrado =
-                    _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
+                    _appContext.Partidos.Find(idPartido);
                 if (partidoEncontrado != null)
                 {
                     partidoEncontrado.EquipoVisitante = equipoEncontrado;
@@ -90,11 +91,11 @@ namespace TorneoFutbol.App.Persistencia
         IRepositorioPartido.LinkEstadioPartido(int idPartido, int idEstadio)
         {
             var estadioEncontrado =
-                _appContext.Estadios.FirstOrDefault(e => e.ID == idEstadio);
+                _appContext.Estadios.Find(idEstadio);
             if (estadioEncontrado != null)
             {
                 var partidoEncontrado =
-                    _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
+                    _appContext.Partidos.Find(idPartido);
                 if (partidoEncontrado != null)
                 {
                     partidoEncontrado.Estadio = estadioEncontrado;
@@ -109,11 +110,11 @@ namespace TorneoFutbol.App.Persistencia
         Partido IRepositorioPartido.LinkArbitroPartido(int idPartido, int idArbitro)
         {
             var arbitroEncontrado =
-                _appContext.Arbitros.FirstOrDefault(a => a.ID == idArbitro);
+                _appContext.Arbitros.Find(idArbitro);
             if (arbitroEncontrado != null)
             {
                 var partidoEncontrado =
-                    _appContext.Partidos.FirstOrDefault(p => p.ID == idPartido);
+                    _appContext.Partidos.Find(idPartido);
                 if (partidoEncontrado != null)
                 {
                     partidoEncontrado.Arbitro = arbitroEncontrado;

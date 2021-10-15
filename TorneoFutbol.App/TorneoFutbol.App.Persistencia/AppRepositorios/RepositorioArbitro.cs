@@ -29,6 +29,11 @@ namespace TorneoFutbol.App.Persistencia
         {
             return _appContext.Arbitros;
         }
+        IEnumerable<Arbitro> IRepositorioArbitro.GetArbitroOnColegio(string col)
+        {
+            //return _appContext.Arbitros.Where(p => p.Colegio.Contains(col));
+            return _appContext.Arbitros.Where(p => p.Colegio == col);
+        }
 
         Arbitro IRepositorioArbitro.GetArbitro(int idArbitro)
         {

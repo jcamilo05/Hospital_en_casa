@@ -420,6 +420,12 @@ namespace TorneoFutbol.App.Consola
             //Console.WriteLine("se agregó correctamente");
         }
         
+<<<<<<< HEAD
 */
+=======
+        //testing 
+
+        
+>>>>>>> 730f181f856dd003acc7e1cf09b080ef8e6c9b71
     }
 }

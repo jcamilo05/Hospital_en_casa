@@ -1,10 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "AXUCdbqe2lq8GbKvwyEsfqBKo09NojthMZnyq6VsnRs/bs4MbrwR+/FvQq3Tggp+I1Oi+KCwVJnZRbDkCjKT7A==",
   "success": true,
   "projectFilePath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camil\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "O0k+EnKErKxcr+na5Y0Z2pBS3ak77qCSlwQiwokgxO1dI9iLymXYHCqNdyai0Fus5IQm3jawzkwxuwMT9Va3jg==",
+  "success": true,
+  "projectFilePath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 730f181f856dd003acc7e1cf09b080ef8e6c9b71
   "logs": []
 }

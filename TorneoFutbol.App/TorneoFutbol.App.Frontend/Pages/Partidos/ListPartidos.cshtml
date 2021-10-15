@@ -21,9 +21,9 @@
         {
             <tr>
                 <th>@partido.ID</th>
-                <td>@partido.EquipoLocal</td>
-                <td>@partido.EquipoVisitante</td>
-                <td><p>@partido.MarcadorInicialVisitante - @partido.MarcadorInicialLocal</p></td>
+                <td>@partido.EquipoLocal.Nombre</td>
+                <td>@partido.EquipoVisitante.Nombre</td>
+                <td><p style="text-align : center">@partido.MarcadorInicialVisitante - @partido.MarcadorInicialLocal</p></td>
                 <td>@partido.FechaHora</td>
                 <td>
                     <a class="btn btn-primary" asp-page="./Index" asp-route-id="@partido.ID">Iniciar</a>

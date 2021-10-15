@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using TorneoFutbol.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace TorneoFutbol.App.Persistencia
 {
@@ -22,7 +23,7 @@ namespace TorneoFutbol.App.Persistencia
 
         void IRepositorioEquipo.DeleteEquipo(int idEquipo)
         {
-            var equipoEncontrado=_appContext.Equipos.FirstOrDefault(p => p.ID==idEquipo);
+            var equipoEncontrado=_appContext.Equipos.Find(idEquipo);
             if (equipoEncontrado==null)
                 return;
             _appContext.Equipos.Remove(equipoEncontrado);
@@ -31,17 +32,18 @@ namespace TorneoFutbol.App.Persistencia
 
         IEnumerable<Equipo> IRepositorioEquipo.GetAllEquipo()
         {
-            return _appContext.Equipos;
+            return _appContext.Equipos
+            .Include(p => p.Municipio);
         }
 
         Equipo IRepositorioEquipo.GetEquipo(int idEquipo)
         {
-            return _appContext.Equipos.FirstOrDefault(p => p.ID == idEquipo);
+            return _appContext.Equipos.Find(idEquipo);
         }
 
         Equipo IRepositorioEquipo.UpdateEquipo(Equipo equipo)
         {
-            var equipoEncontrado=_appContext.Equipos.FirstOrDefault(p => p.ID == equipo.ID);
+            var equipoEncontrado=_appContext.Equipos.Find(equipo.ID);
             if (equipoEncontrado!=null)
             {
                 equipoEncontrado.ID=equipo.ID;
@@ -57,10 +59,10 @@ namespace TorneoFutbol.App.Persistencia
         }
         void IRepositorioEquipo.AsignarJugador(int idEquipo, int idJugador)
         {
-            var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.ID == idEquipo);
+            var equipoEncontrado = _appContext.Equipos.Find(idEquipo);
             if (equipoEncontrado!=null)
             {
-                var jugadorEncontrado = _appContext.Jugadores.FirstOrDefault(p => p.ID == idJugador);
+                var jugadorEncontrado = _appContext.Jugadores.Find(idJugador);
                 if (jugadorEncontrado!=null)
                 {
                     equipoEncontrado.Jugadores.Add(jugadorEncontrado);
@@ -73,15 +75,15 @@ namespace TorneoFutbol.App.Persistencia
 
         Municipio IRepositorioEquipo.LinkMunicipio(int idEquipo, int idMunicipio)
         {
-            var equipoEncontrado = _appContext.Equipos.FirstOrDefault(j => j.ID == idEquipo);
+            var equipoEncontrado = _appContext.Equipos.Find(idEquipo);
             if (equipoEncontrado!=null)
             {
-                var municipioEncontrado = _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
+                var municipioEncontrado = _appContext.Municipios.Find(idMunicipio);
                 if (municipioEncontrado!=null)
                 {
                     equipoEncontrado.Municipio = municipioEncontrado;
                     _appContext.SaveChanges();
-                    System.Console.WriteLine("ok");
+                    //System.Console.WriteLine("ok");
                 }
                 return municipioEncontrado;
             }
@@ -89,5 +91,3 @@ namespace TorneoFutbol.App.Persistencia
         }
     }
 }
-        
-        

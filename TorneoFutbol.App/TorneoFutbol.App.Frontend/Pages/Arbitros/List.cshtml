@@ -30,10 +30,26 @@
                 </td>
             </tr>
         }
-        <tr>
-            <td style="text-align:center">
-                <a class="btn btn-primary" asp-page="./Create">Registrar Nuevo</a>
-            </td>
-        </tr>
     </tbody>
 </table>
+<form method="get">
+<div class="row">
+    <div class="col" style="text-align:left">
+        <a class="btn btn-primary" asp-page="./Create">Registrar Nuevo</a>
+    </div>
+    <div class="col">
+        <select name="col" id="col" class="form-control">
+            <option value=""> </option>
+            @foreach (var arbitro in Model.arbitros)
+            {
+                <option value="@arbitro.Colegio">@arbitro.Colegio</option>
+            }
+        </select>
+    </div>
+    <div class="col">
+        <button type="submit" class="btn btn-secondary">Filtrar</button>
+    </div>
+    <div class="col">
+    </div>
+</div>
+</form>
