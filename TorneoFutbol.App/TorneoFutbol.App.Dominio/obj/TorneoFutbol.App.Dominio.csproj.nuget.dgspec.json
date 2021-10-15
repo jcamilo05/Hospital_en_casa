@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\programacion\\repoTorneo\\BranchDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {}
+    "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {}
   },
   "projects": {
-    "E:\\programacion\\repoTorneo\\BranchDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+    "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\programacion\\repoTorneo\\BranchDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
         "projectName": "TorneoFutbol.App.Dominio",
-        "projectPath": "E:\\programacion\\repoTorneo\\BranchDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\STARTUP\\.nuget\\packages\\",
-        "outputPath": "E:\\programacion\\repoTorneo\\BranchDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+        "projectPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Dhani\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo_de_software_C3\\Torneo_Futbol\\Repo_RamaDaniel\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\STARTUP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dhani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

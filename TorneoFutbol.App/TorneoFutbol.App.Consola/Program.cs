@@ -414,6 +414,8 @@ namespace TorneoFutbol.App.Consola
             //Console.WriteLine("se agregó correctamente");
         }
         
+        //testing 
 
+        
     }
 }

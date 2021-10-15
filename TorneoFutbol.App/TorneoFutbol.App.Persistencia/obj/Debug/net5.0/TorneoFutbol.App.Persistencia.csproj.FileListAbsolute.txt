@@ -83,7 +83,6 @@ D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\Torn
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
-D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
 D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
