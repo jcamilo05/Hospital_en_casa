@@ -123,3 +123,4 @@ E:\programacion\repoTorneo\BranchDaniel\TorneoFutbol.App\TorneoFutbol.App.Persis
 E:\programacion\repoTorneo\BranchDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
 E:\programacion\repoTorneo\BranchDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
 E:\programacion\repoTorneo\BranchDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
+D:\Desarrollo_de_software_C3\Torneo_Futbol\Repo_RamaDaniel\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
