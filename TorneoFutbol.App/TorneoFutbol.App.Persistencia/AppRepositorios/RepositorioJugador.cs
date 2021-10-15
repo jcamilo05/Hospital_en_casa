@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using TorneoFutbol.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace TorneoFutbol.App.Persistencia
 {
@@ -27,7 +28,7 @@ namespace TorneoFutbol.App.Persistencia
         //devuelve todo el appcontext de jugadores
         IEnumerable<Jugador> IRepositorioJugador.GetAllJugador()
         {
-            return _appContext.Jugadores;
+            return _appContext.Jugadores.Include(e => e.Equipo);
         }
         //Recibe un id de jugador, lo busca en el appcontext y devuelve un objeto de tipo jugador
         Jugador IRepositorioJugador.GetJugador(int idJugador)

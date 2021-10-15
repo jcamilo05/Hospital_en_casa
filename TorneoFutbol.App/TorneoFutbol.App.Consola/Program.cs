@@ -80,8 +80,14 @@ namespace TorneoFutbol.App.Consola
             //BuscarNovedad(2);
             //LinkNovedadPartido(2,1);
             //LinkNovedadJugador(2,2);
+            //foreach(var jugador in _repoJugador.GetAllJugador()) 
+            {
+                var jugador = _repoJugador.GetAllJugador();
+                Console.WriteLine(jugador.Where(e => jugador.Equipo).ToList());
+
+            }
         }
-        
+       /* 
         //#===========================================#
         //#      Inicio Metodos Crud Arbitros         #
         //#===========================================#
@@ -414,6 +420,6 @@ namespace TorneoFutbol.App.Consola
             //Console.WriteLine("se agregó correctamente");
         }
         
-
+*/
     }
 }

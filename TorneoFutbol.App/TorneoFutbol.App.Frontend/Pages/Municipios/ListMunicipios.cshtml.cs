@@ -13,6 +13,7 @@ namespace TorneoFutbol.App.Frontend.Pages.Municipios
     {
         private readonly IRepositorioMunicipio _repoMunicipio;
         public IEnumerable<Municipio> municipios { get; set; }
+        public IEnumerable<Estadio> estadios {get; set;}
         public ListMunicipiosModel(IRepositorioMunicipio repoMunicipio)
         {
             _repoMunicipio = repoMunicipio;

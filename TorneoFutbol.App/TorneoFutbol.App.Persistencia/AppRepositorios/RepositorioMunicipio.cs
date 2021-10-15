@@ -2,17 +2,12 @@ using System.Collections.Generic;
 using System.Linq;
 using TorneoFutbol.App.Dominio;
 using TorneoFutbol.App.Persistencia;
+using Microsoft.EntityFrameworkCore;
 
 namespace TorneoFutbol.App.Persistencia
 {
     public class RepositorioMunicipio : IRepositorioMunicipio
     {
-        /*private readonly AppContext _appContext;
-
-        public RepositorioMunicipio(AppContext appContext)
-        {
-            _appContext=appContext;
-        }*/
         private readonly AppContext _appContext = new AppContext();
         Municipio IRepositorioMunicipio.AddMunicipio(Municipio municipio)
         {
@@ -32,7 +27,7 @@ namespace TorneoFutbol.App.Persistencia
 
         IEnumerable<Municipio> IRepositorioMunicipio.GetAllMunicipio()
         {
-            return _appContext.Municipios;
+            return _appContext.Municipios.Include(e => e.Estadio);
         }
 
         Municipio IRepositorioMunicipio.GetMunicipio(int idMunicipio)
