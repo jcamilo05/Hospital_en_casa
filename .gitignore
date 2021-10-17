@@ -1,8 +1,8 @@
-bin/  
-obj/
 *.suo
 *.user
 _ReSharper.*
-bin
-obj
 packages
+TorneoFutbol.App/TorneoFutbol.App.Frontend/obj/
+TorneoFutbol.App/TorneoFutbol.App.Frontend/bin/
+TorneoFutbol.App/TorneoFutbol.App.Persistencia/obj/
+TorneoFutbol.App/TorneoFutbol.App.Persistencia/bin/
