@@ -893,3 +893,6 @@ C:\Users\Dhani\Desktop\Master\TorneoFutbol.App\TorneoFutbol.App.Frontend\bin\Deb
 C:\Users\Dhani\Desktop\Master\TorneoFutbol.App\TorneoFutbol.App.Frontend\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Dhani\Desktop\Master\TorneoFutbol.App\TorneoFutbol.App.Frontend\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Dhani\Desktop\Master\TorneoFutbol.App\TorneoFutbol.App.Frontend\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Dhani\Desktop\Master\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Dhani\Desktop\Master\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Dhani\Desktop\Master\TorneoFutbol.App\TorneoFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
