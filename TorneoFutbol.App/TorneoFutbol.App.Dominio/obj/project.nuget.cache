@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AXUCdbqe2lq8GbKvwyEsfqBKo09NojthMZnyq6VsnRs/bs4MbrwR+/FvQq3Tggp+I1Oi+KCwVJnZRbDkCjKT7A==",
+  "dgSpecHash": "DNOTacp2IQiTjeoB314Kx7+FRZ2MxF8dOWHEVSKJ7GMWy3BY8BTv7PmNRCZA/jnfLFToWkEaXAaQ02jjtgVTog==",
   "success": true,
-  "projectFilePath": "F:\\repos\\TorneoFutbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Dhani\\Desktop\\Master\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\camil\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\Dhani\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
