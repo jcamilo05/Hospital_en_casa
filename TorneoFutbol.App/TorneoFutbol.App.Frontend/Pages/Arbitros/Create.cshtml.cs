@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using TorneoFutbol.App.Persistencia;
 using TorneoFutbol.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TorneoFutbol.App.Frontend.Pages.Arbitros
 {
+    [Authorize]
     public class CreateModel : PageModel
     {
         private readonly IRepositorioArbitro _repoArbitro;
