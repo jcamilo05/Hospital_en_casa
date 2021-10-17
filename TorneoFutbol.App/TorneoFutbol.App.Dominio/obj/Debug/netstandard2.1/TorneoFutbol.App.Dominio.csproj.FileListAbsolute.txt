@@ -1,4 +1,0 @@
-F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbol.App.Dominio.csprojAssemblyReference.cache
-F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbol.App.Dominio.AssemblyInfoInputs.cache
-F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbol.App.Dominio.AssemblyInfo.cs
-F:\repos\Reto_torneo_futbol\TorneoFutbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbol.App.Dominio.csproj.CoreCompileInputs.cache

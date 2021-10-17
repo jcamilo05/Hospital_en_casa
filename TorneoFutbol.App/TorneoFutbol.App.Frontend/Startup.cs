@@ -25,7 +25,9 @@ namespace TorneoFutbol.App.Frontend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRazorPages();
             services.AddRazorPages().AddRazorRuntimeCompilation();
+            services.AddControllersWithViews();
             services.AddSingleton<IRepositorioArbitro, RepositorioArbitro>();
             services.AddSingleton<IRepositorioDT, RepositorioDT>();
             services.AddSingleton<IRepositorioEquipo, RepositorioEquipo>();
@@ -55,6 +57,8 @@ namespace TorneoFutbol.App.Frontend
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

@@ -18,7 +18,7 @@ namespace TorneoFutbol.App.Persistencia
 
         void IRepositorioMunicipio.DeleteMunicipio(int idMunicipio)
         {
-            var municipioEncontrado=_appContext.Municipios.FirstOrDefault(p => p.ID==idMunicipio);
+            var municipioEncontrado=_appContext.Municipios.Find(idMunicipio);
             if (municipioEncontrado==null)
                 return;
             _appContext.Municipios.Remove(municipioEncontrado);
@@ -32,12 +32,12 @@ namespace TorneoFutbol.App.Persistencia
 
         Municipio IRepositorioMunicipio.GetMunicipio(int idMunicipio)
         {
-            return _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
+            return _appContext.Municipios.Find(idMunicipio);
         }
 
         Municipio IRepositorioMunicipio.UpdateMunicipio(Municipio municipio)
         {
-            var municipioEncontrado=_appContext.Municipios.FirstOrDefault(p => p.ID == municipio.ID);
+            var municipioEncontrado=_appContext.Municipios.Find(municipio.ID);
             if (municipioEncontrado!=null)
             {
                 municipioEncontrado.ID=municipio.ID;
@@ -51,10 +51,10 @@ namespace TorneoFutbol.App.Persistencia
         }
         Municipio IRepositorioMunicipio.LinkEstadio(int idMunicipio, int idEstadio)
         {
-            var estadioEncontrado = _appContext.Estadios.FirstOrDefault(e => e.ID == idEstadio);
+            var estadioEncontrado = _appContext.Estadios.Find(idEstadio);
             if (estadioEncontrado!=null)
             {
-                var municipioEncontrado = _appContext.Municipios.FirstOrDefault(p => p.ID == idMunicipio);
+                var municipioEncontrado = _appContext.Municipios.Find(idMunicipio);
                 if (municipioEncontrado!=null)
                 {
                     municipioEncontrado.Estadio = estadioEncontrado;

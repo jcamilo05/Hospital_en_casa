@@ -24,7 +24,7 @@
                 <td>@jugador.NumeroTelefono</td>
                 <td>@jugador.Numero</td>
                 <td>@jugador.Posicion</td>
-                <td>@jugador.Equipo</td>
+                <td>@jugador.Equipo.Nombre</td>
                 <td>
                     <a class="btn btn-primary" asp-page="./DetailsJugadores" asp-route-id="@jugador.ID">Detalles</a>
                     <a class="btn btn-secondary" asp-page="./EditJugadores" asp-route-id="@jugador.ID">Editar</a>
@@ -32,10 +32,26 @@
                 </td>
             </tr>
         }
-        <tr>
-            <td>
-                <a class="btn btn-primary" asp-page="./CreateJugadores">Registrar Jugador</a>
-            </td>
-        </tr>
     </tbody>
 </table>
+<form method="get">
+<div class="row">
+    <div class="col" style="text-align:left">
+        <a class="btn btn-primary" asp-page="./CreateJugadores">Registrar Nuevo</a>
+    </div>
+    <div class="col">
+        <select name="col" id="col" class="form-control">
+            <option value=""> </option>
+            @foreach (var jugador in Model.jugadores)
+            {
+                <option value="@jugador.Equipo.Nombre">@jugador.Equipo.Nombre</option>
+            }
+        </select>
+    </div>
+    <div class="col">
+        <button type="submit" class="btn btn-secondary">Filtrar</button>
+    </div>
+    <div class="col">
+    </div>
+</div>
+</form>

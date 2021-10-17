@@ -18,7 +18,7 @@
             <tr>
                 <th>@municipio.Nombre</th>
                 <td>@municipio.Departamento</td>
-                <td>@municipio.Estadio</td>
+                <td>@municipio.Estadio.Nombre</td>
                 <td>
                     <a class="btn btn-primary" asp-page="./DetailsMunicipios" asp-route-id="@municipio.ID">Detalles</a>
                     <a class="btn btn-secondary" asp-page="./EditMunicipios" asp-route-id="@municipio.ID">Editar</a>
@@ -26,10 +26,26 @@
                 </td>
             </tr>
         }
-        <tr>
-            <th>
-                <a class="btn btn-primary" asp-page="./CreateMunicipios">Registrar Municipio</a>
-            </th>
-        </tr>
     </tbody>
 </table>
+<form method="get">
+<div class="row">
+    <div class="col" style="text-align:left">
+        <a class="btn btn-primary" asp-page="./CreateMunicipios">Registrar Nuevo</a>
+    </div>
+    <div class="col">
+        <select name="col" id="col" class="form-control">
+            <option value=""> </option>
+            @foreach (var municipio in Model.municipios)
+            {
+                <option value="@municipio.Departamento">@municipio.Departamento</option>
+            }
+        </select>
+    </div>
+    <div class="col">
+        <button type="submit" class="btn btn-secondary">Filtrar</button>
+    </div>
+    <div class="col">
+    </div>
+</div>
+</form>
